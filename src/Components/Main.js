@@ -1,12 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 import Navigation from "./Navigation";
+import Index from "../Pages/Index";
 
-const Main = () => {
+const Main = (props) => {
   return (
     <main>
+      <Navigation />
       <Routes>
-        <Route>
-          <Navigation />
+        <Route exact path="/">
+          <Index />
         </Route>
       </Routes>
     </main>
