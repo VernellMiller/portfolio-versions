@@ -13,22 +13,22 @@ const Navigation = () => {
 
         <ul>
           <li>
-            <p>Getting Started</p>
+            <a>Getting Started</a>
           </li>
         </ul>
 
         <ul>
           <li>
-            <p>About Me</p>
+            <a>About Me</a>
             <ul>
               <li>
-                <p>Early Life</p>
+                <a>Early Life</a>
               </li>
               <li>
-                <p>Interest</p>
+                <a>Interest</a>
               </li>
               <li>
-                <p>Passion</p>
+                <a>Passion</a>
               </li>
             </ul>
           </li>
@@ -40,6 +40,10 @@ const Navigation = () => {
 
         <ul>
           <li>Artwork</li>
+        </ul>
+
+        <ul>
+          <li>Blogs</li>
         </ul>
       </div>
     </>
