@@ -6,11 +6,15 @@ $accentcolor: #e55a00;
 // Mixins
 
 // Styles
-.sidenav {
-  width: 250px;
-  height: 100vh;
+.small-box {
+  background-color: cornflowerblue;
 }
 
-ul {
-  list-style-type: none;
+.sidenav {
+  position: absolute;
+  width: 200px;
+  height: 100vh;
+  ul {
+    list-style-type: none;
+  }
 }
