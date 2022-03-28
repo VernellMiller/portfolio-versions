@@ -1,5 +1,7 @@
 import "./App.css";
 import Navigation from "./Components/Navigation";
+import Main from "./Components/Main";
+import GettingStarted from "./Pages/GettingStarted";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -8,6 +10,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navigation />
+        <GettingStarted />
+
         <a
           className="App-link"
           href="https://reactjs.org"
