@@ -4,10 +4,14 @@ $secondarycolor: #f8f9fa;
 $accentcolor: #e55a00;
 
 // Mixins
-
+@mixin shift-content-right {
+  margin-left: 300px;
+}
 // Styles
-.small-box {
+.splash-image {
+  @include shift-content-right();
   background-color: cornflowerblue;
+  height: 400px;
 }
 
 .sidenav {
