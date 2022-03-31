@@ -8,6 +8,12 @@ $accentcolor: #e55a00;
   margin-left: 300px;
 }
 // Styles
+
+header {
+  h1 {
+    @include shift-content-right();
+  }
+}
 .splash-image {
   @include shift-content-right();
   background-color: cornflowerblue;
