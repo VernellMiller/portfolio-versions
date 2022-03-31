@@ -5,11 +5,11 @@ const Navigation = () => {
   return (
     <>
       <div class="sidenav bg-light">
-        <header class="title">
+        <div class="title">
           <Link to="/">
             <p>Onward</p> {/* TODO I want to put a logo here. */}
           </Link>
-        </header>
+        </div>
 
         <ul>
           <li>
