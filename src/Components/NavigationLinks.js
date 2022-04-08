@@ -5,7 +5,7 @@ const NavigationLinks = () => {
     <div class="navlinks">
       <ul>
         <li>
-          <a class="text-decoration-none" href="about">
+          <a class="text-decoration-none fw-bold" href="about">
             Getting Started
           </a>
         </li>
@@ -13,7 +13,7 @@ const NavigationLinks = () => {
 
       <ul>
         <li>
-          <a class="text-decoration-none" href="about">
+          <a class="text-decoration-none fw-bold" href="about">
             About Me
           </a>
           <div>
@@ -42,7 +42,7 @@ const NavigationLinks = () => {
           </div>
         </li>
         <li>
-          <a class="text-decoration-none" href="about">
+          <a class="text-decoration-none fw-bold" href="about">
             Development Projects
           </a>
           <div>
@@ -71,7 +71,7 @@ const NavigationLinks = () => {
           </div>
         </li>
         <li>
-          <a class="text-decoration-none" href="2d3d">
+          <a class="text-decoration-none fw-bold" href="2d3d">
             2D | 3D Projects
           </a>
           <div>
@@ -100,12 +100,12 @@ const NavigationLinks = () => {
           </div>
         </li>
         <li>
-          <a class="text-decoration-none" href="blogs">
+          <a class="text-decoration-none fw-bold" href="blogs">
             Blogs
           </a>
         </li>
         <li>
-          <a class="text-decoration-none" href="support">
+          <a class="text-decoration-none fw-bold" href="support">
             Support
           </a>
         </li>
