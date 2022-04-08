@@ -8,6 +8,13 @@ $accentcolor: #e55a00;
   margin-left: 300px;
 }
 // Styles
+.title {
+  padding: 30px;
+}
+
+.navlinks {
+  padding: 0px 24px;
+}
 
 header {
   h1 {
@@ -22,9 +29,12 @@ header {
 
 .sidenav {
   position: absolute;
-  width: 200px;
+  width: 280px;
   height: 100vh;
   ul {
     list-style-type: none;
+  }
+  li {
+    width: 280px;
   }
 }
