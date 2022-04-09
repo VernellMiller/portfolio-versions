@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Title = () => {
   return (
     <div class="title">
-      <Link to="/">
-        <p>Onward</p> {/* TODO I want to put a logo here. */}
-      </Link>
+      <a href="#" class="navbar-brand mt-2">
+        <div class="display-5 font-weight-bold">this.</div>
+      </a>
     </div>
   );
 };
