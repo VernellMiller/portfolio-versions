@@ -13,12 +13,12 @@ const Navigation = () => {
           <div class="display-5 font-weight-bold">this.</div>
         </a> */}
         <ul class="navbar-nav d-flex flex-column mt-4 w-100">
-          <li class="nav-item w-100">
+          <li class="nav-item">
             <a href="#" class="nav-link pl-4">
               Getting Started
             </a>
           </li>
-          <li class="nav-item dropdown w-100">
+          <li class="nav-item dropdown">
             <a
               href="#"
               class="nav-link dropdown-toggle pl-4"
@@ -29,7 +29,7 @@ const Navigation = () => {
             >
               About Me
             </a>
-            <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
                 <a href="#" class="dropdown-item pl-4 p-2">
                   Early Life
@@ -52,7 +52,7 @@ const Navigation = () => {
               </li>
             </ul>
           </li>
-          <li class="nav-item dropdown w-100">
+          <li class="nav-item dropdown">
             <a
               href="#"
               class="nav-link dropdown-toggle pl-4"
@@ -86,7 +86,7 @@ const Navigation = () => {
               </li>
             </ul>
           </li>
-          <li class="nav-item dropdown w-100">
+          <li class="nav-item dropdown">
             <a
               href="#"
               class="nav-link dropdown-toggle pl-4"
@@ -120,7 +120,12 @@ const Navigation = () => {
               </li>
             </ul>
           </li>
-          <li class="nav-item dropdown w-100">
+          <li class="nav-item">
+            <a href="#" class="nav-link pl-4">
+              Blogs
+            </a>
+          </li>
+          <li class="nav-item dropdown">
             <a
               href="#"
               class="nav-link dropdown-toggle pl-4"
