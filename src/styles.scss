@@ -30,7 +30,7 @@ header {
 
 .splash-image {
   @include shift-content-right();
-  background-color: cornflowerblue;
+  background-color: $thiscolor;
   height: 400px;
 }
 
@@ -49,7 +49,7 @@ header {
   }
 }
 .title {
-  margin-left: 30px;
+  margin: 20px 0 0 30px;
   a {
     color: $thiscolor;
   }
