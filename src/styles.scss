@@ -41,11 +41,18 @@ header {
   position: fixed;
   // margin-left: -300px;
   background-color: #fafafa;
-  // transition: 0.4s;
+  transition: 0.4s;
 }
 
 .nav-link {
-  font-size: 1.25em;
+  font-size: 1.05em;
+  color: #4b4b4b;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #eeeeee;
 }
 
 // .sidenav {
