@@ -12,7 +12,7 @@ const Navigation = () => {
         <a href="#" class="navbar-brand mt-5">
           <div class="display-5 font-weight-bold">this.</div>
         </a>
-        <ul class="navbar-nav d-flex flex-colum mt-5 w-100">
+        <ul class="navbar-nav d-flex flex-column mt-5 w-100">
           <li class="nav-item w-100">
             <a href="#" class="nav-link pl-4">
               Getting Started
@@ -29,7 +29,7 @@ const Navigation = () => {
             >
               About Me
             </a>
-            <ul class="dropdown-menu wo-100 aria-expanded">
+            <ul class="dropdown-menu w-100" aria-expanded="false">
               <li>
                 <a href="#" class="dropdown-item pl-4 p-2">
                   Early Life
@@ -63,7 +63,7 @@ const Navigation = () => {
             >
               Development Projects
             </a>
-            <ul class="dropdown-menu wo-100 aria-expanded">
+            <ul class="dropdown-menu w-100" aria-expanded="false">
               <li>
                 <a href="#" class="dropdown-item pl-4 p-2">
                   Project 1
@@ -97,7 +97,7 @@ const Navigation = () => {
             >
               2D | 3D Projects
             </a>
-            <ul class="dropdown-menu wo-100 aria-expanded">
+            <ul class="dropdown-menu w-100" aria-expanded="false">
               <li>
                 <a href="#" class="dropdown-item pl-4 p-2">
                   2D Design
@@ -131,7 +131,7 @@ const Navigation = () => {
             >
               Support
             </a>
-            <ul class="dropdown-menu wo-100 aria-expanded">
+            <ul class="dropdown-menu w-100" aria-expanded="false">
               <li>
                 <a href="#" class="dropdown-item pl-4 p-2">
                   Contact Me
