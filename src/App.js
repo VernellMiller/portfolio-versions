@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <body className="App-body">
         <Navigation />
         <GettingStarted />
 
@@ -20,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </body>
     </div>
   );
 }
