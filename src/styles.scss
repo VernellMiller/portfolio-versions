@@ -51,6 +51,21 @@ header {
     width: 95%;
   }
 }
+
+.sidenav {
+  position: absolute;
+  ul {
+    list-style-type: none;
+    // font-family: monospace;
+    li {
+      a {
+        // width: 280px;
+        color: #d32929;
+      }
+    }
+  }
+}
+
 .title {
   margin: 20px 0 0 30px;
   a {
@@ -63,23 +78,3 @@ header {
 .nav-link:hover {
   background-color: #eeeeee;
 }
-
-// .sidenav {
-//   position: absolute;
-//   width: 280px;
-//   height: 100vh;
-//   ul {
-//     list-style-type: none;
-//     font-family: monospace;
-//     li {
-//       a {
-//         width: 280px;
-//         color: #2c2c2c;
-//       }
-//     }
-//   }
-// }
-
-// .navlinks {
-//   padding: 0px 24px;
-// }
