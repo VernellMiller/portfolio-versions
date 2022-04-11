@@ -10,9 +10,7 @@ const Navigation = () => {
           id="sidebar"
         >
           <Title />
-          {/* <a href="#" class="navbar-brand mt-2">
-          <div class="display-5 font-weight-bold">this.</div>
-        </a> */}
+
           <ul class="navbar-nav d-flex flex-column mt-4 w-100">
             <li class="nav-item">
               <a href="#" class="nav-link pl-4">
