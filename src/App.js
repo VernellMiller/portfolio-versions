@@ -1,6 +1,8 @@
 import "./App.css";
 import Navigation from "./Components/Navigation";
 import GettingStarted from "./Pages/GettingStarted";
+import Blogs from "./Pages/Blogs";
+import Contact from "./Pages/Contact";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -11,6 +13,8 @@ function App() {
         <body className="App-body">
           <Navigation />
           <GettingStarted />
+          <Blogs />
+          <Contact />
 
           <a
             className="App-link"
