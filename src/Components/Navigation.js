@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "./Title";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -13,13 +14,13 @@ const Navigation = () => {
 
           <ul class="navbar-nav d-flex flex-column mt-4 w-100">
             <li class="nav-item">
-              <a href="#" class="nav-link pl-4">
+              <Link to="/" class="nav-link pl-4">
                 Getting Started
-              </a>
+              </Link>
             </li>
             <li class="nav-item dropdown">
-              <a
-                href="#"
+              <Link
+                to="about"
                 class="nav-link dropdown-toggle pl-4"
                 id="navbarDropdown"
                 role="button"
@@ -27,7 +28,7 @@ const Navigation = () => {
                 aria-expanded="false"
               >
                 About Me
-              </a>
+              </Link>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a href="#" class="dropdown-item pl-4 p-2">
@@ -120,9 +121,9 @@ const Navigation = () => {
               </ul>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link pl-4">
+              <Link to="blogs" class="nav-link pl-4">
                 Blogs
-              </a>
+              </Link>
             </li>
             <li class="nav-item dropdown">
               <a
