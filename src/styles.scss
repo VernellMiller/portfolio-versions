@@ -58,14 +58,19 @@ header {
 }
 
 .sidenav {
-  position: absolute;
+  position: fixed;
   ul {
     list-style-type: none;
     // font-family: monospace;
     li {
+      width: 90%;
       a {
         // width: 280px;
-        color: #d32929;
+        // color: #d32929;
+        font-size: 0.8em;
+        // font-weight: bold;
+        color: #4b4b4b;
+        margin-left: 20px;
       }
     }
   }
@@ -86,4 +91,16 @@ header {
 
 a:link {
   text-decoration: none;
+}
+
+.infoCard {
+  @include shift-content-right();
+  border: 1px solid #d3d3d3;
+  .infoboximage {
+    width: 60px;
+    height: 60px;
+    img {
+      width: 50px;
+    }
+  }
 }
