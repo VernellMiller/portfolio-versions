@@ -29,7 +29,7 @@ const Navigation = () => {
               >
                 About Me
               </Link>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul aria-labelledby="navbarDropdown">
                 <li>
                   <a href="#" class="dropdown-item pl-4 p-2">
                     Early Life
@@ -63,7 +63,7 @@ const Navigation = () => {
               >
                 Development Projects
               </a>
-              <ul class="dropdown-menu w-100" aria-expanded="false">
+              <ul class=" w-100" aria-expanded="false">
                 <li>
                   <a href="#" class="dropdown-item pl-4 p-2">
                     Project 1
@@ -97,7 +97,7 @@ const Navigation = () => {
               >
                 2D | 3D Projects
               </a>
-              <ul class="dropdown-menu w-100" aria-expanded="false">
+              <ul class=" w-100" aria-expanded="false">
                 <li>
                   <a href="#" class="dropdown-item pl-4 p-2">
                     2D Design
@@ -136,11 +136,11 @@ const Navigation = () => {
               >
                 Support
               </a>
-              <ul class="dropdown-menu w-100" aria-expanded="false">
+              <ul class=" w-100" aria-expanded="false">
                 <li>
-                  <a href="#" class="dropdown-item pl-4 p-2">
+                  <Link to="contact" class="dropdown-item pl-4 p-2">
                     Contact Me
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
