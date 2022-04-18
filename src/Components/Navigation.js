@@ -14,7 +14,6 @@ const Navigation = () => {
       <button onClick={() => setShow(true)}>show</button>
       <button onClick={() => setShow(false)}>hide</button>
       <button onClick={() => setShow(!show)}>toggle</button> */}
-
       <div class="sidenav">
         <nav
           class="navbar navbar-expand d-flex flex-column align-items-start"
@@ -79,6 +78,11 @@ const Navigation = () => {
               </a>
               {show1 ? (
                 <ul class=" w-100" aria-expanded="false">
+                  <li>
+                    <Link to="luckyJackPot" class="dropdown-item pl-4 p-2">
+                      Lucky Jack Pot
+                    </Link>
+                  </li>
                   <li>
                     <Link to="project1" class="dropdown-item pl-4 p-2">
                       Project 1
