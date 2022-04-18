@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import Title from "./Title";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
+  const [show, setShow] = React.useState(true);
+  const [show1, setShow1] = React.useState(true);
+  const [show2, setShow2] = React.useState(true);
+  const [show3, setShow3] = React.useState(true);
+
   return (
     <>
+      {/* {show ? <h1>Hello World!</h1> : null}
+      <button onClick={() => setShow(true)}>show</button>
+      <button onClick={() => setShow(false)}>hide</button>
+      <button onClick={() => setShow(!show)}>toggle</button> */}
+
       <div class="sidenav">
         <nav
           class="navbar navbar-expand d-flex flex-column align-items-start"
@@ -20,6 +30,7 @@ const Navigation = () => {
             </li>
             <li class="nav-item dropdown">
               <Link
+                onClick={() => setShow(!show)}
                 to="about"
                 class="nav-link dropdown-toggle pl-4"
                 id="navbarDropdown"
@@ -29,28 +40,30 @@ const Navigation = () => {
               >
                 About Me
               </Link>
-              <ul aria-labelledby="navbarDropdown">
-                <li>
-                  <a href="#" class="dropdown-item pl-4 p-2">
-                    Early Life
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item pl-4 p-2">
-                    Career
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item pl-4 p-2">
-                    Passions
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item pl-4 p-2">
-                    Interests
-                  </a>
-                </li>
-              </ul>
+              {show ? (
+                <ul aria-labelledby="navbarDropdown">
+                  <li>
+                    <a href="#" class="dropdown-item pl-4 p-2">
+                      Early Life
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item pl-4 p-2">
+                      Career
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item pl-4 p-2">
+                      Passions
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item pl-4 p-2">
+                      Interests
+                    </a>
+                  </li>
+                </ul>
+              ) : null}
             </li>
             <li class="nav-item dropdown">
               <a
@@ -60,31 +73,34 @@ const Navigation = () => {
                 role="button"
                 data-toggle="dropdown"
                 aria-expanded="false"
+                onClick={() => setShow1(!show1)}
               >
                 Development Projects
               </a>
-              <ul class=" w-100" aria-expanded="false">
-                <li>
-                  <a href="#" class="dropdown-item pl-4 p-2">
-                    Project 1
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item pl-4 p-2">
-                    Project 1
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item pl-4 p-2">
-                    Project 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item pl-4 p-2">
-                    Project 4
-                  </a>
-                </li>
-              </ul>
+              {show1 ? (
+                <ul class=" w-100" aria-expanded="false">
+                  <li>
+                    <a href="#" class="dropdown-item pl-4 p-2">
+                      Project 1
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item pl-4 p-2">
+                      Project 1
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item pl-4 p-2">
+                      Project 3
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item pl-4 p-2">
+                      Project 4
+                    </a>
+                  </li>
+                </ul>
+              ) : null}
             </li>
             <li class="nav-item dropdown">
               <a
@@ -94,31 +110,34 @@ const Navigation = () => {
                 role="button"
                 data-toggle="dropdown"
                 aria-expanded="false"
+                onClick={() => setShow2(!show2)}
               >
                 2D | 3D Projects
               </a>
-              <ul class=" w-100" aria-expanded="false">
-                <li>
-                  <a href="#" class="dropdown-item pl-4 p-2">
-                    2D Design
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item pl-4 p-2">
-                    3D Design
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item pl-4 p-2">
-                    Branding
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item pl-4 p-2">
-                    Logos
-                  </a>
-                </li>
-              </ul>
+              {show2 ? (
+                <ul class=" w-100" aria-expanded="false">
+                  <li>
+                    <a href="#" class="dropdown-item pl-4 p-2">
+                      2D Design
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item pl-4 p-2">
+                      3D Design
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item pl-4 p-2">
+                      Branding
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item pl-4 p-2">
+                      Logos
+                    </a>
+                  </li>
+                </ul>
+              ) : null}
             </li>
             <li class="nav-item">
               <Link to="blogs" class="nav-link pl-4">
@@ -133,16 +152,19 @@ const Navigation = () => {
                 role="button"
                 data-toggle="dropdown"
                 aria-expanded="false"
+                onClick={() => setShow3(!show3)}
               >
                 Support
               </a>
-              <ul class=" w-100" aria-expanded="false">
-                <li>
-                  <Link to="contact" class="dropdown-item pl-4 p-2">
-                    Contact Me
-                  </Link>
-                </li>
-              </ul>
+              {show3 ? (
+                <ul class=" w-100" aria-expanded="false">
+                  <li>
+                    <Link to="contact" class="dropdown-item pl-4 p-2">
+                      Contact Me
+                    </Link>
+                  </li>
+                </ul>
+              ) : null}
             </li>
           </ul>
         </nav>
