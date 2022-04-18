@@ -29,23 +29,23 @@ const Navigation = () => {
               </Link>
             </li>
             <li class="nav-item dropdown">
-              <Link
-                onClick={() => setShow(!show)}
-                to="about"
-                class="nav-link dropdown-toggle pl-4"
+              <a
+                href="#"
+                class="nav-link pl-4"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                onClick={() => setShow(!show)}
               >
                 About Me
-              </Link>
+              </a>
               {show ? (
                 <ul aria-labelledby="navbarDropdown">
                   <li>
-                    <a href="#" class="dropdown-item pl-4 p-2">
+                    <Link to="about" class="dropdown-item pl-4 p-2">
                       Early Life
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="#" class="dropdown-item pl-4 p-2">
@@ -68,7 +68,7 @@ const Navigation = () => {
             <li class="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle pl-4"
+                class="nav-link pl-4"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -80,24 +80,24 @@ const Navigation = () => {
               {show1 ? (
                 <ul class=" w-100" aria-expanded="false">
                   <li>
-                    <a href="#" class="dropdown-item pl-4 p-2">
+                    <Link to="project1" class="dropdown-item pl-4 p-2">
                       Project 1
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" class="dropdown-item pl-4 p-2">
-                      Project 1
-                    </a>
+                    <Link to="project2" class="dropdown-item pl-4 p-2">
+                      Project 2
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" class="dropdown-item pl-4 p-2">
+                    <Link to="project3" class="dropdown-item pl-4 p-2">
                       Project 3
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" class="dropdown-item pl-4 p-2">
+                    <Link to="project4" class="dropdown-item pl-4 p-2">
                       Project 4
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               ) : null}
@@ -105,7 +105,7 @@ const Navigation = () => {
             <li class="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle pl-4"
+                class="nav-link pl-4"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -147,7 +147,7 @@ const Navigation = () => {
             <li class="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle pl-4"
+                class="nav-link pl-4"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"
