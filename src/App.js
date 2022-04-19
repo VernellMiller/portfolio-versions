@@ -10,7 +10,7 @@ import Project1 from "./Pages/Project1";
 import Project2 from "./Pages/Project2";
 import Project3 from "./Pages/Project3";
 import Project4 from "./Pages/Project4";
-import LuckyJackPot from "./Pages/LuckyJackPot";
+import Squares from "./Pages/Squares";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import AboutMe from "./Pages/AboutMe";
@@ -33,7 +33,7 @@ function App() {
             <Route path="project3" element={<Project3 />} />
             <Route path="project4" element={<Project4 />} />
 
-            <Route path="luckyJackPot" element={<LuckyJackPot />} />
+            <Route path="squares" element={<Squares />} />
           </Routes>
         </body>
       </div>

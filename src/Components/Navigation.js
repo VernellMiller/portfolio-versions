@@ -3,10 +3,10 @@ import Title from "./Title";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
-  const [show, setShow] = React.useState(true);
-  const [show1, setShow1] = React.useState(true);
-  const [show2, setShow2] = React.useState(true);
-  const [show3, setShow3] = React.useState(true);
+  const [show, setShow] = React.useState(false);
+  const [show1, setShow1] = React.useState(false);
+  const [show2, setShow2] = React.useState(false);
+  const [show3, setShow3] = React.useState(false);
 
   return (
     <>
@@ -79,8 +79,8 @@ const Navigation = () => {
               {show1 ? (
                 <ul class=" w-100" aria-expanded="false">
                   <li>
-                    <Link to="luckyJackPot" class="dropdown-item pl-4 p-2">
-                      Lucky Jack Pot
+                    <Link to="squares" class="dropdown-item pl-4 p-2">
+                      Squares
                     </Link>
                   </li>
                   <li>
