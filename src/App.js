@@ -11,6 +11,7 @@ import Project2 from "./Pages/Project2";
 import Project3 from "./Pages/Project3";
 import Project4 from "./Pages/Project4";
 import Squares from "./Pages/Squares";
+import Footer from "./Components/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import AboutMe from "./Pages/AboutMe";
@@ -35,6 +36,7 @@ function App() {
 
             <Route path="squares" element={<Squares />} />
           </Routes>
+          <Footer />
         </body>
       </div>
       {/* </Router> */}
