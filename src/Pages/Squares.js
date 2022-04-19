@@ -1,4 +1,5 @@
 import React from "react";
+import SquaresGame from "../Components/SqauresGame";
 
 const Squares = () => {
   return (
@@ -32,6 +33,8 @@ const Squares = () => {
                 jackpot location a max 4 times per day.
               </p>
             </section>
+
+            <SquaresGame />
           </div>
         </div>
       </div>
