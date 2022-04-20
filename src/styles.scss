@@ -105,18 +105,16 @@ a:link {
   }
 }
 
-.grid {
-  // border: 3px solid gold;
-  min-height: 500px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  margin-bottom: 30px;
-
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.griditem {
-  border: 1px solid black;
+.checkBoxes {
+  // width: 526px;
+  display: flex;
+  .btn-group {
+    flex-wrap: wrap;
+  }
+  label {
+    height: 40px;
+    width: 40px;
+  }
 }
 
 #footer {
