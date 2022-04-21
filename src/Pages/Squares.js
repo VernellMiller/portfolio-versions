@@ -4,14 +4,14 @@ import SquaresGame from "../Components/SqauresGame";
 const Squares = () => {
   return (
     <>
-      <div class="container">
-        <div class="row">
-          <div class="col mt-5 ml-5">
+      <div className="container">
+        <div className="row">
+          <div className="col mt-5 ml-5">
             <header>
               <h1>Welcome to Squares</h1>
             </header>
-            <div class="splash-image col-9"></div>
-            <section class="content col-9 mt-5">
+            <div className="splash-image col-9"></div>
+            <section className="content col-9 mt-5">
               <h5>Squares</h5>
               <p>
                 Squares is a daily try your luck guessing game. Think you got
