@@ -14,23 +14,23 @@ const Navigation = () => {
       <button onClick={() => setShow(true)}>show</button>
       <button onClick={() => setShow(false)}>hide</button>
       <button onClick={() => setShow(!show)}>toggle</button> */}
-      <div class="sidenav">
+      <div className="sidenav">
         <nav
-          class="navbar navbar-expand d-flex flex-column align-items-start"
+          className="navbar navbar-expand d-flex flex-column align-items-start"
           id="sidebar"
         >
           <Title />
 
-          <ul class="navbar-nav d-flex flex-column mt-4 w-100">
-            <li class="nav-item">
-              <Link to="/" class="nav-link pl-4">
+          <ul className="navbar-nav d-flex flex-column mt-4 w-100">
+            <li className="nav-item">
+              <Link to="/" className="nav-link pl-4">
                 Getting Started
               </Link>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link pl-4"
+                className="nav-link pl-4"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -42,32 +42,32 @@ const Navigation = () => {
               {show ? (
                 <ul aria-labelledby="navbarDropdown">
                   <li>
-                    <Link to="about" class="dropdown-item pl-4 p-2">
+                    <Link to="about" className="dropdown-item pl-4 p-2">
                       Early Life
                     </Link>
                   </li>
                   <li>
-                    <a href="#" class="dropdown-item pl-4 p-2">
+                    <a href="#" className="dropdown-item pl-4 p-2">
                       Career
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="dropdown-item pl-4 p-2">
+                    <a href="#" className="dropdown-item pl-4 p-2">
                       Passions
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="dropdown-item pl-4 p-2">
+                    <a href="#" className="dropdown-item pl-4 p-2">
                       Interests
                     </a>
                   </li>
                 </ul>
               ) : null}
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link pl-4"
+                className="nav-link pl-4"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -77,39 +77,39 @@ const Navigation = () => {
                 Development Projects
               </a>
               {show1 ? (
-                <ul class=" w-100" aria-expanded="false">
+                <ul className=" w-100" aria-expanded="false">
                   <li>
-                    <Link to="squares" class="dropdown-item pl-4 p-2">
+                    <Link to="squares" className="dropdown-item pl-4 p-2">
                       Squares
                     </Link>
                   </li>
                   <li>
-                    <Link to="project1" class="dropdown-item pl-4 p-2">
+                    <Link to="project1" className="dropdown-item pl-4 p-2">
                       Project 1
                     </Link>
                   </li>
                   <li>
-                    <Link to="project2" class="dropdown-item pl-4 p-2">
+                    <Link to="project2" className="dropdown-item pl-4 p-2">
                       Project 2
                     </Link>
                   </li>
                   <li>
-                    <Link to="project3" class="dropdown-item pl-4 p-2">
+                    <Link to="project3" className="dropdown-item pl-4 p-2">
                       Project 3
                     </Link>
                   </li>
                   <li>
-                    <Link to="project4" class="dropdown-item pl-4 p-2">
+                    <Link to="project4" className="dropdown-item pl-4 p-2">
                       Project 4
                     </Link>
                   </li>
                 </ul>
               ) : null}
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link pl-4"
+                className="nav-link pl-4"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -119,39 +119,39 @@ const Navigation = () => {
                 2D | 3D Projects
               </a>
               {show2 ? (
-                <ul class=" w-100" aria-expanded="false">
+                <ul className=" w-100" aria-expanded="false">
                   <li>
-                    <a href="#" class="dropdown-item pl-4 p-2">
+                    <a href="#" className="dropdown-item pl-4 p-2">
                       2D Design
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="dropdown-item pl-4 p-2">
+                    <a href="#" className="dropdown-item pl-4 p-2">
                       3D Design
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="dropdown-item pl-4 p-2">
+                    <a href="#" className="dropdown-item pl-4 p-2">
                       Branding
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="dropdown-item pl-4 p-2">
+                    <a href="#" className="dropdown-item pl-4 p-2">
                       Logos
                     </a>
                   </li>
                 </ul>
               ) : null}
             </li>
-            <li class="nav-item">
-              <Link to="blogs" class="nav-link pl-4">
+            <li className="nav-item">
+              <Link to="blogs" className="nav-link pl-4">
                 Blogs
               </Link>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link pl-4"
+                className="nav-link pl-4"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -161,9 +161,9 @@ const Navigation = () => {
                 Support
               </a>
               {show3 ? (
-                <ul class=" w-100" aria-expanded="false">
+                <ul className=" w-100" aria-expanded="false">
                   <li>
-                    <Link to="contact" class="dropdown-item pl-4 p-2">
+                    <Link to="contact" className="dropdown-item pl-4 p-2">
                       Contact Me
                     </Link>
                   </li>

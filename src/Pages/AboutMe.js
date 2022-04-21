@@ -3,16 +3,16 @@ import React from "react";
 const AboutMe = () => {
   return (
     <>
-      <div class="container">
-        <div class="row">
-          <div class="col mt-5 ml-5">
+      <div className="container">
+        <div className="row">
+          <div className="col mt-5 ml-5">
             <header>
               <h1>About Me Page Page</h1>
             </header>
-            <div class="splash-image col-9"></div>
+            <div className="splash-image col-9"></div>
           </div>
         </div>
-        <section class="content col-9 mt-5">
+        <section className="content col-9 mt-5">
           <h5>Early Life</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
