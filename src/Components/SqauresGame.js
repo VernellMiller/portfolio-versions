@@ -1,4 +1,5 @@
 import React from "react";
+import DateTime from "./DateTime";
 
 const SquaresGame = () => {
   const handleClick = () => {
@@ -12,6 +13,7 @@ const SquaresGame = () => {
         <h1>Lets Play</h1>
 
         <input type="text" placeholder="enter name here" id="name" />
+        <DateTime />
 
         <div className="checkBoxes mt-3">
           <div
@@ -841,7 +843,7 @@ const SquaresGame = () => {
 
       <button
         type="submit"
-        className="btn btn-primary float-end"
+        className="btn btn-primary float-end mt-3"
         id="submit"
         onClick={handleClick}
       >
