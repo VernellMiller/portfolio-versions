@@ -1,4 +1,4 @@
-import react from "react-router-dom";
+import react from "react";
 
 const Index = () => {
   return (
