@@ -21,7 +21,7 @@ function App() {
     <>
       {/* <Router> */}
       <div className="App">
-        <body className="App-body">
+        <div className="App-body">
           <Navigation />
           <Routes>
             <Route path="/" element={<GettingStarted />} />
@@ -37,7 +37,7 @@ function App() {
             <Route path="squares" element={<Squares />} />
           </Routes>
           <Footer />
-        </body>
+        </div>
       </div>
       {/* </Router> */}
     </>
