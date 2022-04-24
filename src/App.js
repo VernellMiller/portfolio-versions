@@ -11,6 +11,7 @@ import Project2 from "./Pages/Project2";
 import Project3 from "./Pages/Project3";
 import Project4 from "./Pages/Project4";
 import Squares from "./Pages/Squares";
+import TwoD from "./Pages/TwoD";
 import Footer from "./Components/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -35,6 +36,8 @@ function App() {
             <Route path="project4" element={<Project4 />} />
 
             <Route path="squares" element={<Squares />} />
+
+            <Route path="twoD" element={<TwoD />} />
           </Routes>
           <Footer />
         </div>

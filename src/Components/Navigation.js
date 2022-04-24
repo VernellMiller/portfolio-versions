@@ -121,9 +121,9 @@ const Navigation = () => {
               {show2 ? (
                 <ul className=" w-100" aria-expanded="false">
                   <li>
-                    <a href="#" className="dropdown-item pl-4 p-2">
+                    <Link to="twod" className="dropdown-item pl-4 p-2">
                       2D Design
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="#" className="dropdown-item pl-4 p-2">
