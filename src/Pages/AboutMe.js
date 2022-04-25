@@ -9,11 +9,15 @@ const AboutMe = () => {
             <header>
               <h1>About Me Page Page</h1>
             </header>
-            <div className="splash-image col-9"></div>
           </div>
         </div>
         <section className="content col-9 mt-5">
-          <h5>Early Life</h5>
+          <img
+            className="img-fluid"
+            src="/images/About Me.jpg"
+            alt="About Me"
+          />
+          <h5 className="mt-5">Early Life</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
             quis aut itaque alias deserunt inventore fugit laudantium quos?
