@@ -7,16 +7,20 @@ const AboutMe = () => {
         <div className="row">
           <div className="col mt-5 ml-5">
             <header>
-              <h1>About Me Page Page</h1>
+              <h4>Hello and Welcome!</h4>
+              <h1>I am Vernell.</h1>
             </header>
           </div>
         </div>
-        <section className="content col-9 mt-5">
+        <section className="content col-9 mt-3">
           <img
             className="img-fluid"
             src="/images/About Me.jpg"
             alt="About Me"
           />
+          <p className="mt-5">
+            <strong>Vernell Miller</strong> to be exact. Thank you for visiting.
+          </p>
           <h5 className="mt-5">Early Life</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
