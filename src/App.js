@@ -39,7 +39,7 @@ function App() {
 
             <Route path="twoD" element={<TwoD />} />
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </div>
       {/* </Router> */}
