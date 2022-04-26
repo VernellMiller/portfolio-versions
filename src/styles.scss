@@ -33,6 +33,13 @@ header {
   }
 }
 
+.bgImage {
+  background-image: url("../public/images/bg-01.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-color: cadetblue;
+}
+
 .splash-image {
   @include shift-content-right();
   background-color: $thiscolor;
