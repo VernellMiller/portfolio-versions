@@ -28,16 +28,13 @@ $libackgroundcolor: #d3d3d3;
 }
 
 header {
-  h1 {
-    @include shift-content-right();
-  }
+  @include shift-content-right();
 }
 
 .bgImage {
-  background-image: url("../public/images/bg-01.jpg");
+  background-image: url("../public/images/concept of growth1-01.jpg");
   background-size: cover;
-  height: 100vh;
-  background-color: cadetblue;
+  height: 500px;
 }
 
 .splash-image {
