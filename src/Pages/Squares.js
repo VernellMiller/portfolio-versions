@@ -8,11 +8,15 @@ const Squares = () => {
         <div className="row">
           <div className="col mt-5 ml-5">
             <header>
-              <h1>Welcome to Squares</h1>
+              <h1>Squares</h1>
             </header>
-            <div className="splash-image col-9"></div>
             <section className="content col-9 mt-5">
-              <h5>Squares</h5>
+              <img
+                className="img-fluid"
+                src="/images/squares-01.jpg"
+                alt="About Me"
+              />
+              <h5 className="mt-5">Welcome to Squares</h5>
               <p>
                 Squares is a daily try your luck guessing game. Think you got
                 what it takes? Try it out, have some fun and who knows, maybe
