@@ -121,6 +121,35 @@ a:link {
   }
 }
 
+#circle {
+  background-color: cornflowerblue;
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+}
+
+#career {
+  border-left: 2px dotted #dddcdc;
+  margin-bottom: 20px;
+}
+
+#job {
+  margin-left: 110px;
+}
+#job2 {
+  margin-left: 183px;
+}
+#job3 {
+  margin-left: 191px;
+}
+#job4 {
+  margin-left: 128px;
+}
+
+#jobDescription {
+  margin-left: 15px;
+}
+
 #footer {
   min-height: 500px;
 }
