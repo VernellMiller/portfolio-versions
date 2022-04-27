@@ -34,13 +34,13 @@ const AboutMe = () => {
             numquam vel libero fuga? Dolor optio fugit placeat nihil.
           </p>
 
-          <h3>Education</h3>
+          <h3 className="mt-5">Education</h3>
           <Education />
 
-          <h3 className="mt-5">Career</h3>
+          <h3 className="mt-5">Work Experience</h3>
           <Career />
 
-          <h3>Passions</h3>
+          <h3 className="mt-5">Passions</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
             molestiae asperiores perferendis aperiam consequatur qui, quasi
@@ -60,7 +60,7 @@ const AboutMe = () => {
             esse natus aliquam enim.
           </p>
 
-          <h3>Interests</h3>
+          <h3 className="mt-5">Interests</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
             molestiae asperiores perferendis aperiam consequatur qui, quasi
