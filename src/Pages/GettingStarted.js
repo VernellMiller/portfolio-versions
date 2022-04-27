@@ -8,7 +8,7 @@ const GettingStarted = () => {
         <div className="row">
           <div className="col mt-5 ml-5">
             <header>
-              <div className="bgImage">
+              <div className="bgImage position-relative">
                 <h1>Passion,</h1>
                 <h1>Communication,</h1>
                 <h1>Execution</h1>
@@ -16,13 +16,24 @@ const GettingStarted = () => {
                   We've all heard it before, Team work makes the dream work!
                   Lets work together to make our Dreams come true.
                 </p>
+                <Link
+                  to="about"
+                  className="btn btn-outline-info position-absolute bottom-0 start-0 pl-4"
+                  id="getStarted"
+                >
+                  Get Started
+                </Link>
               </div>
             </header>
-            {/* <div className="splash-image col-9"></div> */}
             <section className="content col-9 mt-5">
               <p>
                 Currently <strong>v2.0.1</strong>
               </p>
+              <h2 className="d-inline">Hello and Welcome to </h2>
+              <h1 className="d-inline" id="myName">
+                VERNELL MILLER'S{" "}
+              </h1>
+              <h2 className="d-inline">Portfolio</h2>
               <div className="row mt-5">
                 <article className="col">
                   <h4>About Me</h4>
