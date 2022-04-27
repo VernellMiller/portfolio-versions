@@ -1,4 +1,5 @@
 import React from "react";
+import Education from "../Components/Education";
 import Career from "../Components/Career";
 
 const AboutMe = () => {
@@ -33,9 +34,51 @@ const AboutMe = () => {
             numquam vel libero fuga? Dolor optio fugit placeat nihil.
           </p>
 
-          <h3>Career</h3>
+          <h3>Education</h3>
+          <Education />
+
+          <h3 className="mt-5">Career</h3>
           <Career />
+
           <h3>Passions</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+            molestiae asperiores perferendis aperiam consequatur qui, quasi
+            vitae repellat minima ad explicabo voluptas rem magnam labore quia
+            esse natus aliquam enim.
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+            molestiae asperiores perferendis aperiam consequatur qui, quasi
+            vitae repellat minima ad explicabo voluptas rem magnam labore quia
+            esse natus aliquam enim.
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+            molestiae asperiores perferendis aperiam consequatur qui, quasi
+            vitae repellat minima ad explicabo voluptas rem magnam labore quia
+            esse natus aliquam enim.
+          </p>
+
+          <h3>Interests</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+            molestiae asperiores perferendis aperiam consequatur qui, quasi
+            vitae repellat minima ad explicabo voluptas rem magnam labore quia
+            esse natus aliquam enim.
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+            molestiae asperiores perferendis aperiam consequatur qui, quasi
+            vitae repellat minima ad explicabo voluptas rem magnam labore quia
+            esse natus aliquam enim.
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+            molestiae asperiores perferendis aperiam consequatur qui, quasi
+            vitae repellat minima ad explicabo voluptas rem magnam labore quia
+            esse natus aliquam enim.
+          </p>
         </section>
       </div>
     </>
