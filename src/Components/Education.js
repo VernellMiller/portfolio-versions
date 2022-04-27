@@ -12,11 +12,11 @@ const Education = () => {
               alt="Meadowcreek HighSchool Logo"
             />
             <div class="card-body">
-              <h5 class="card-title">Meadowcreek High</h5>
+              <h5 class="card-title">Meadowcreek HighSchool</h5>
               <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Graduated from one of the most diverse classes in georgia during
+                my time which immersed me in connecting and working with piers
+                from all sorts of backgrounds.
               </p>
             </div>
           </div>
@@ -29,9 +29,9 @@ const Education = () => {
             <div class="card-body">
               <h5 class="card-title">BA Game Development & Design</h5>
               <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Grew within the Creative Media Industries space which brought
+                many opportunities to engage with new and cutting edge
+                technologies.
               </p>
             </div>
           </div>
@@ -46,9 +46,8 @@ const Education = () => {
                 Full-Stack Software Engineering Immersive
               </h5>
               <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Participated in over 500+ hours of instruction focused skills
+                needed to succeed as a Software Engineer
               </p>
             </div>
           </div>
