@@ -3,7 +3,7 @@ import React from "react";
 const Career = () => {
   return (
     <>
-      <section className="mt-4" id="career">
+      <section className="mt-5" id="career">
         <div class="position-relative">
           <div
             class="position-absolute top-0 start-0 translate-middle"
@@ -139,10 +139,10 @@ const Career = () => {
                   Configuration Engineer, Jan. 2012-Jan. 2016
                 </h6>
                 <p>
-                  Managed a 10-member band and oversaw all rehearsals and
-                  performances throughout a 27-day tour. Coordinated with venues
-                  to schedule the 13 performances within the 27 days across the
-                  Mid-East, and North Africa for the US Military.
+                  Began working as a Configuration Technician and advanced to
+                  Co- Project Lead on the organization’s largest project with
+                  AT&T. Built server racks from scratch that contributed to
+                  several AT&T data centers across the country.
                 </p>
               </div>
             </div>
