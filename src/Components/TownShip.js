@@ -3,7 +3,7 @@ import React from "react";
 const TownShip = () => {
   return (
     <>
-      <section className="content col-9 mt-5">
+      <section className="content col-9 mt-5 border-bottom">
         <h5>Little Living | Shopping TownShip</h5>
         <img
           className="img-fluid"
