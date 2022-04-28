@@ -14,7 +14,7 @@ const AboutMe = () => {
             </header>
           </div>
         </div>
-        <section className="content col-9 mt-3">
+        <section className="content col-9 mt-3 border-bottom">
           <img
             className="img-fluid"
             src="/images/About Me.jpg"
@@ -102,8 +102,14 @@ const AboutMe = () => {
             am interested in with my ever expanding Knowledge, to help create
             and develop unique products and experiences for the end user.
           </p>
-          <h2>Lets work</h2>
-          <h1>Togther!</h1>
+        </section>
+
+        <section className="content col-9 mt-3">
+          <img
+            className="img-fluid mt-5"
+            src="/images/workTogether-01.jpg"
+            alt="About Me"
+          />
         </section>
       </div>
     </>
