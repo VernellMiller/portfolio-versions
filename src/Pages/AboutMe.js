@@ -64,38 +64,46 @@ const AboutMe = () => {
             experiences. I am also passionate about my loved ones including
             close Friends and Family. My passions are what drives me and I
             always give them my best effort. As long as I stay true to who I am
-            and what I am passionate about, there is no way I wont succeed 👌😊.
-          </p>
-          <p>
-            After several years working for an IT Solutions Company I knew I
-            needed to take a step back to finish.
-          </p>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
-            molestiae asperiores perferendis aperiam consequatur qui, quasi
-            vitae repellat minima ad explicabo voluptas rem magnam labore quia
-            esse natus aliquam enim.
+            and what I am passionate about, there is no way that I wont succeed
+            👌😊.
           </p>
 
           <h3 className="mt-5">Interests</h3>
+          <h6>Web | Application Development</h6>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
-            molestiae asperiores perferendis aperiam consequatur qui, quasi
-            vitae repellat minima ad explicabo voluptas rem magnam labore quia
-            esse natus aliquam enim.
+            Being that I am always intrigued with how anything works, it is
+            natural for me to imagine ways I could create a product or service
+            that helps solve a problem. There is also the opportunity to have a
+            little fun in there also 😁. Web Dev has been a great journey for me
+            so far and I cant wait to see how far I can take it. I am excited
+            and I hope you are too.
+          </p>
+          <h6>Digital Art</h6>
+          <p>
+            Both 2D and 3D art inspires me daily. There are so many talented
+            artist out there and with technology booming there are tons of
+            software available for all to learn. I was introduced to both
+            mediums in college through Graphic Design and Game Design and I have
+            continued to research and practice to keep my skills fresh. My
+            favorite 2D software is Adobe Illustrator and my favorite 3D
+            software is Blender.
+          </p>
+          <h6>Game Development | 3D Animation</h6>
+          <p>
+            Games and Animation grew to staple in my child hood. After playing
+            my favorite games or watching my favorite cartoons, I set a goal to
+            one day create my own video game and or 3d animated series. I have
+            kept that promise to a much younger me and I am proud to say that I
+            am very much on my way to accomplishing those goals.{" "}
+            <strong>One Step At A Time👟.</strong>
           </p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
-            molestiae asperiores perferendis aperiam consequatur qui, quasi
-            vitae repellat minima ad explicabo voluptas rem magnam labore quia
-            esse natus aliquam enim.
+            My goal is to combine all that I am passionate about and all that I
+            am interested in with my ever expanding Knowledge, to help create
+            and develop unique products and experiences for the end user.
           </p>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
-            molestiae asperiores perferendis aperiam consequatur qui, quasi
-            vitae repellat minima ad explicabo voluptas rem magnam labore quia
-            esse natus aliquam enim.
-          </p>
+          <h2>Lets work</h2>
+          <h1>Togther!</h1>
         </section>
       </div>
     </>
