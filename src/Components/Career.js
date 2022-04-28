@@ -142,7 +142,7 @@ const Career = () => {
                   Began working as a Configuration Technician and advanced to
                   Co- Project Lead on the organization’s largest project with
                   AT&T. Built server racks from scratch that contributed to
-                  several AT&T data centers across the country.
+                  several AT&T Data Centers across the country.
                 </p>
               </div>
             </div>
