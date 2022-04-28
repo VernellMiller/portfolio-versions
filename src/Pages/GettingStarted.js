@@ -47,19 +47,19 @@ const GettingStarted = () => {
                 <article className="col">
                   <h4>Web Dev</h4>
                   <p>
-                    Want to checkout not all but a few of my most recent web
+                    Want to checkout not all but a few of my most recent Web
                     Development Projects | Applications? Jump on over to the
-                    Development Projects tab to see what I've been up to.
+                    Development Projects tab to see what I've been up to. Who
+                    knows, you might get lucky.
                   </p>
                 </article>
                 <article className="col">
                   <h4>Design</h4>
                   <p>
                     Love Art and Design? Well welcome Friend. It looks like we
-                    have something in common and we're off to a great start 😊.
-                    I have a few different loves as you will discover. Head on
-                    over to the 2D | 3D Projects tab to check out some of my
-                    designs.
+                    have something in common 😊. I have a few different loves as
+                    you will discover. Head on over to the 2D | 3D Projects tab
+                    to check out some of my designs.
                   </p>
                 </article>
               </div>
