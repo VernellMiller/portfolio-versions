@@ -18,7 +18,7 @@ const GettingStarted = () => {
                 </p>
                 <Link
                   to="about"
-                  className="btn btn-outline-info position-absolute bottom-0 start-0 pl-4"
+                  className="btn btn-outline-light btn-lg position-absolute top-100 start-0 translate-middle pl-4"
                   id="getStarted"
                 >
                   Get Started
@@ -41,14 +41,14 @@ const GettingStarted = () => {
                     Looking to get to know more about me and my journey? Maybe
                     even looking to join me on this Fantastic Voyage? Get
                     started with, the About Me page to learn where I come from,
-                    how I got started, or even where you might see me next.
+                    what I am working on, or even where you might see me next.
                   </p>
                 </article>
                 <article className="col">
                   <h4>Web Dev</h4>
                   <p>
                     Want to checkout not all but a few of my most recent web
-                    development projects | applications? Jump on over to the
+                    Development Projects | Applications? Jump on over to the
                     Development Projects tab to see what I've been up to.
                   </p>
                 </article>
