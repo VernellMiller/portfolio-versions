@@ -34,7 +34,6 @@ const YardProject = () => {
           project duration while also injecting some new ideas for the future.
         </p>
       </section>
-      {/* <div className="splash-image col-9"></div> */}
     </>
   );
 };
