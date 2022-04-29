@@ -13,7 +13,7 @@ const Squares = () => {
             <section className="content col-9 mt-5">
               <img
                 className="img-fluid"
-                src="/images/squares-01.jpg"
+                src="/images/squares-01-01.jpg"
                 alt="About Me"
               />
               <h5 className="mt-5">Welcome to Squares</h5>
