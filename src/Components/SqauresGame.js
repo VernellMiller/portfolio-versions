@@ -837,18 +837,17 @@ const SquaresGame = () => {
               className="btn btn-outline-secondary border"
               htmlFor="btncheck144"
             ></label>
+            <button
+              type="submit"
+              className="btn btn-primary mt-3"
+              id="submit"
+              onClick={handleClick}
+            >
+              Lock It In
+            </button>
           </div>
         </div>
       </div>
-
-      <button
-        type="submit"
-        className="btn btn-primary float-end mt-3"
-        id="submit"
-        onClick={handleClick}
-      >
-        Lock It In
-      </button>
     </>
   );
 };

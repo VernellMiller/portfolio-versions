@@ -120,7 +120,7 @@ a:link {
 }
 
 .checkBoxes {
-  // width: 526px;
+  max-width: 30rem;
   display: flex;
   .btn-group {
     flex-wrap: wrap;
