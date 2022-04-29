@@ -23,6 +23,13 @@ const GettingStarted = () => {
                 >
                   Get Started
                 </Link>
+                <Link
+                  to="contact"
+                  className="btn btn-outline-light btn-lg position-absolute top-100 start-0 translate-middle pl-4"
+                  id="contactMe"
+                >
+                  Contact Me
+                </Link>
               </div>
             </header>
             <section className="content col-9 mt-5">
