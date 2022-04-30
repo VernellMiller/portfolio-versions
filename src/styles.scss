@@ -37,6 +37,12 @@ header {
   height: 500px;
 }
 
+.contactBgImage {
+  background-image: url("../public/images/contactBackgroundImage.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
 .splash-image {
   @include shift-content-right();
   background-color: $thiscolor;
@@ -98,6 +104,24 @@ header {
   border-color: #00d6cc;
   margin-left: 230px;
 }
+
+// #formCard {
+//   max-width: 200px;
+// }
+
+form {
+  p {
+    margin: 10px 0 0 0px;
+  }
+  textarea {
+    height: 150px;
+  }
+  .btn {
+    color: white;
+    background-color: #00d6cc;
+  }
+}
+
 #myName {
   color: #00d6cc;
 }
