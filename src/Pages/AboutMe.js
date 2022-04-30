@@ -103,14 +103,6 @@ const AboutMe = () => {
             and develop unique products and experiences for the end user.
           </p>
         </section>
-
-        <section className="content col-9 mt-3">
-          <img
-            className="img-fluid mt-5"
-            src="/images/workTogether-01.jpg"
-            alt="About Me"
-          />
-        </section>
       </div>
     </>
   );
