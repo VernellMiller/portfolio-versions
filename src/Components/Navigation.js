@@ -19,7 +19,7 @@ const Navigation = () => {
           className="navbar navbar-expand d-flex flex-column align-items-start"
           id="sidebar"
         >
-          <Title />
+          {/* <Title /> */}
 
           <ul className="navbar-nav d-flex flex-column mt-4 w-100">
             <li className="nav-item">
