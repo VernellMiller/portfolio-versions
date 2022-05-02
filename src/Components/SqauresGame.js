@@ -45,7 +45,11 @@ const SquaresGame = () => {
 
   const getUserSelectionsHandler = (event) => {
     console.log(event.target.value);
-    setPlayer({ userSelection1: event.target.value });
+    if (player.userSelection1 === "") {
+      setPlayer({ userSelection1: event.target.value });
+    } else {
+      setPlayer({ userSelection2: event.target.value });
+    }
   };
 
   const submitHandler = (event) => {
