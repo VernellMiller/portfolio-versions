@@ -35,25 +35,25 @@ const Contact = () => {
             <div class="card mb-3 shadow" id="formCard">
               <div className="card-body">
                 <form ref={form} onSubmit={sendEmail}>
-                  <p>to</p>
+                  <p className="fw-bold">to</p>
                   <input
                     type="text"
                     className="col-12 border corder-light"
                     name="to"
                     value={myName}
                   />
-                  <p>Your Name or Company</p>
+                  <p className="fw-bold">Your Name or Company</p>
                   <input
                     type="text"
                     className="col-12 border corder-light"
                     name="from"
                   />
-                  <p>Message</p>
+                  <p className="fw-bold">Message</p>
                   <textarea
                     className="col-12 border corder-light"
                     name="message"
                   />
-                  <p>Your Email or Phone #</p>
+                  <p className="fw-bold">Your Email or Phone #</p>
                   <input
                     type="text"
                     className="col-12 border corder-light"
