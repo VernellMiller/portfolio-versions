@@ -8,6 +8,21 @@ const SquaresGame = () => {
   //   document.getElementById("name").value = "";
   // };
 
+  const [winningNumbers, setWinningNumbers] = useState({
+    winningNumber1: Math.floor(Math.random() * 145),
+    winningNumber2: Math.floor(Math.random() * 145),
+    winningNumber3: Math.floor(Math.random() * 145),
+    winningNumber4: Math.floor(Math.random() * 145),
+  });
+
+  // const winningNumbers = [
+  //   Math.floor(Math.random() * 145),
+  //   Math.floor(Math.random() * 145),
+  //   Math.floor(Math.random() * 145),
+  //   Math.floor(Math.random() * 145),
+  // ];
+  console.log(winningNumbers);
+
   const [player, setPlayer] = useState({
     userName: "",
     userSelection1: "",
@@ -28,10 +43,14 @@ const SquaresGame = () => {
     setPlayer({ userName: event.target.value });
   };
 
-  const getUserSelections = (event) => {};
+  const getUserSelectionsHandler = (event) => {
+    console.log(event.target.value);
+    setPlayer({ userSelection1: event.target.value });
+  };
 
   const submitHandler = (event) => {
     event.preventDefault();
+    console.log(userSelectedSquares);
   };
 
   return (
@@ -55,138 +74,282 @@ const SquaresGame = () => {
               role="group"
               aria-label="Basic checkbox toggle button group"
             >
-              <input type="checkbox" className="btn-check" id="btncheck1" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck1"
+                onChange={getUserSelectionsHandler}
+                value="1"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck1"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck2" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck2"
+                onChange={getUserSelectionsHandler}
+                value="2"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck2"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck3" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck3"
+                onChange={getUserSelectionsHandler}
+                value="3"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck3"
               ></label>
-              <input type="checkbox" className="btn-check" id="btncheck4" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck4"
+                onChange={getUserSelectionsHandler}
+                value="4"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck4"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck5" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck5"
+                onChange={getUserSelectionsHandler}
+                value="5"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck5"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck6" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck6"
+                onChange={getUserSelectionsHandler}
+                value="6"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck6"
               ></label>
-              <input type="checkbox" className="btn-check" id="btncheck7" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck7"
+                onChange={getUserSelectionsHandler}
+                value="7"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck7"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck8" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck8"
+                onChange={getUserSelectionsHandler}
+                value="8"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck8"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck9" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck9"
+                onChange={getUserSelectionsHandler}
+                value="9"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck9"
               ></label>
-              <input type="checkbox" className="btn-check" id="btncheck10" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck10"
+                onChange={getUserSelectionsHandler}
+                value="10"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck10"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck11" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck11"
+                onChange={getUserSelectionsHandler}
+                value="11"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck11"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck12" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck12"
+                onChange={getUserSelectionsHandler}
+                value="12"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck12"
               ></label>
-              <input type="checkbox" className="btn-check" id="btncheck13" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck13"
+                onChange={getUserSelectionsHandler}
+                value="13"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck13"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck14" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck14"
+                onChange={getUserSelectionsHandler}
+                value="14"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck14"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck15" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck15"
+                onChange={getUserSelectionsHandler}
+                value="15"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck15"
               ></label>
-              <input type="checkbox" className="btn-check" id="btncheck16" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck16"
+                onChange={getUserSelectionsHandler}
+                value="16"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck16"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck17" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck17"
+                onChange={getUserSelectionsHandler}
+                value="17"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck17"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck18" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck18"
+                onChange={getUserSelectionsHandler}
+                value="18"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck18"
               ></label>
-              <input type="checkbox" className="btn-check" id="btncheck19" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck19"
+                onChange={getUserSelectionsHandler}
+                value="19"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck19"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck20" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck20"
+                onChange={getUserSelectionsHandler}
+                value="20"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck20"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck21" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck21"
+                onChange={getUserSelectionsHandler}
+                value="21"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck21"
               ></label>
-              <input type="checkbox" className="btn-check" id="btncheck22" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck22"
+                onChange={getUserSelectionsHandler}
+                value="22"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck22"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck23" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck23"
+                onChange={getUserSelectionsHandler}
+                value="23"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck23"
               ></label>
 
-              <input type="checkbox" className="btn-check" id="btncheck24" />
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck24"
+                onChange={getUserSelectionsHandler}
+                value="24"
+              />
               <label
                 className="btn btn-outline-secondary border"
                 htmlFor="btncheck24"
@@ -889,6 +1052,16 @@ const SquaresGame = () => {
             </div>
           </div>
         </form>
+        <p>
+          winning numbers: {winningNumbers[0]}, {winningNumbers[1]},{" "}
+          {winningNumbers[2]}, {winningNumbers[3]}
+        </p>
+        <p>
+          winning numbers are: {winningNumbers.winningNumber1},{" "}
+          {winningNumbers.winningNumber2}, {winningNumbers.winningNumber3},{" "}
+          {winningNumbers.winningNumber4},
+        </p>
+        {/* <p>your number are: {player.userSelection1}</p> */}
       </div>
     </>
   );
