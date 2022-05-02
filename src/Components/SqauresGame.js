@@ -8,53 +8,60 @@ const SquaresGame = () => {
   //   document.getElementById("name").value = "";
   // };
 
-  const [winningNumbers, setWinningNumbers] = useState({
-    winningNumber1: Math.floor(Math.random() * 145),
-    winningNumber2: Math.floor(Math.random() * 145),
-    winningNumber3: Math.floor(Math.random() * 145),
-    winningNumber4: Math.floor(Math.random() * 145),
-  });
+  // const [winningNumbers, setWinningNumbers] = useState({
+  //   winningNumber1: Math.floor(Math.random() * 145),
+  //   winningNumber2: Math.floor(Math.random() * 145),
+  //   winningNumber3: Math.floor(Math.random() * 145),
+  //   winningNumber4: Math.floor(Math.random() * 145),
+  // });
 
-  // const winningNumbers = [
-  //   Math.floor(Math.random() * 145),
-  //   Math.floor(Math.random() * 145),
-  //   Math.floor(Math.random() * 145),
-  //   Math.floor(Math.random() * 145),
-  // ];
+  const winningNumbers = [
+    Math.floor(Math.random() * 145),
+    Math.floor(Math.random() * 145),
+    Math.floor(Math.random() * 145),
+    Math.floor(Math.random() * 145),
+  ];
   console.log(winningNumbers);
 
   const [player, setPlayer] = useState({
     userName: "",
-    userSelection1: "",
-    userSelection2: "",
-    userSelection3: "",
-    userSelection4: "",
+    selection1: "",
+    selection2: "",
+    selection3: "",
+    selection4: "",
   });
-
-  const userSelectedSquares = [
-    player.userSelection1,
-    player.userSelection2,
-    player.userSelection3,
-    player.userSelection4,
-  ];
 
   const getUserNameHandler = (event) => {
     console.log(event.target.value);
-    setPlayer({ userName: event.target.value });
+    setPlayer((prevState) => {
+      return { ...prevState, userName: event.target.value };
+    });
   };
 
-  const getUserSelectionsHandler = (event) => {
+  const getSelectionHandler = (event) => {
     console.log(event.target.value);
-    if (player.userSelection1 === "") {
-      setPlayer({ userSelection1: event.target.value });
-    } else {
-      setPlayer({ userSelection2: event.target.value });
-    }
+    const value =
+      event.target.type === "checkbox"
+        ? event.target.checked
+        : event.target.value;
+    setPlayer((prevState) => {
+      return {
+        ...prevState,
+        [event.target.name]: value,
+      };
+    });
   };
 
   const submitHandler = (event) => {
     event.preventDefault();
-    console.log(userSelectedSquares);
+
+    const player = {
+      userName: player.userName,
+      selection1: "",
+      selection2: "",
+      selection3: "",
+      selection4: "",
+    };
   };
 
   return (
@@ -66,12 +73,12 @@ const SquaresGame = () => {
           onChange={getUserNameHandler}
           placeholder="enter name here"
           id="name"
-          value={player.userName}
         />
         <DateTime />
 
         <h1>Hello, {player.userName}</h1>
-        <form>
+
+        <form onSubmit={submitHandler}>
           <div className="checkBoxes mt-3">
             <div
               className="btn-group"
@@ -82,7 +89,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck1"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="1"
               />
               <label
@@ -94,7 +101,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck2"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="2"
               />
               <label
@@ -106,7 +113,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck3"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="3"
               />
               <label
@@ -117,7 +124,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck4"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="4"
               />
               <label
@@ -129,7 +136,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck5"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="5"
               />
               <label
@@ -141,7 +148,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck6"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="6"
               />
               <label
@@ -152,7 +159,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck7"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="7"
               />
               <label
@@ -164,7 +171,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck8"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="8"
               />
               <label
@@ -176,7 +183,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck9"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="9"
               />
               <label
@@ -187,7 +194,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck10"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="10"
               />
               <label
@@ -199,7 +206,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck11"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="11"
               />
               <label
@@ -211,7 +218,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck12"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="12"
               />
               <label
@@ -222,7 +229,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck13"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="13"
               />
               <label
@@ -234,7 +241,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck14"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="14"
               />
               <label
@@ -246,7 +253,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck15"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="15"
               />
               <label
@@ -257,7 +264,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck16"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="16"
               />
               <label
@@ -269,7 +276,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck17"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="17"
               />
               <label
@@ -281,7 +288,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck18"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="18"
               />
               <label
@@ -292,7 +299,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck19"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="19"
               />
               <label
@@ -304,7 +311,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck20"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="20"
               />
               <label
@@ -316,7 +323,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck21"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="21"
               />
               <label
@@ -327,7 +334,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck22"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="22"
               />
               <label
@@ -339,7 +346,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck23"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="23"
               />
               <label
@@ -351,7 +358,7 @@ const SquaresGame = () => {
                 type="checkbox"
                 className="btn-check"
                 id="btncheck24"
-                onChange={getUserSelectionsHandler}
+                onChange={getSelectionHandler}
                 value="24"
               />
               <label
@@ -1051,21 +1058,11 @@ const SquaresGame = () => {
                 className="btn mt-3"
                 id="submit"
                 value="Lock It In"
-                onClick={submitHandler}
               />
             </div>
           </div>
         </form>
-        <p>
-          winning numbers: {winningNumbers[0]}, {winningNumbers[1]},{" "}
-          {winningNumbers[2]}, {winningNumbers[3]}
-        </p>
-        <p>
-          winning numbers are: {winningNumbers.winningNumber1},{" "}
-          {winningNumbers.winningNumber2}, {winningNumbers.winningNumber3},{" "}
-          {winningNumbers.winningNumber4},
-        </p>
-        {/* <p>your number are: {player.userSelection1}</p> */}
+        {/* <p>your numbers are: {player.userSelection1}</p> */}
       </div>
     </>
   );
