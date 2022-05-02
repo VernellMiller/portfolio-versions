@@ -10,7 +10,7 @@ const Squares = () => {
             <header>
               <h1>Squares</h1>
             </header>
-            <section className="content col-9 mt-5">
+            <section className="content col-9 mt-5 border-bottom">
               <img
                 className="img-fluid"
                 src="/images/squares-01-01.jpg"
