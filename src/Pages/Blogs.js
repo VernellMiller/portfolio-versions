@@ -9,7 +9,7 @@ const Blogs = () => {
             <header>
               <h1>Blogs Page</h1>
             </header>
-            <div className="splash-image col-9"></div>
+            <div className="splash-image col"></div>
           </div>
         </div>
       </div>

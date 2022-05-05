@@ -4,9 +4,9 @@ const Career = () => {
   return (
     <>
       <section className="mt-5" id="career">
-        <div class="position-relative">
+        <div className="position-relative">
           <div
-            class="position-absolute top-0 start-0 translate-middle"
+            className="position-absolute top-0 start-0 translate-middle"
             id="circle"
           ></div>
           <div className="container">
@@ -42,9 +42,9 @@ const Career = () => {
       </section>
 
       <section className="mt-4" id="career">
-        <div class="position-relative">
+        <div className="position-relative">
           <div
-            class="position-absolute top-0 start-0 translate-middle"
+            className="position-absolute top-0 start-0 translate-middle"
             id="circle"
           ></div>
           <div className="container">
@@ -77,9 +77,9 @@ const Career = () => {
       </section>
 
       <section className="mt-4" id="career">
-        <div class="position-relative">
+        <div className="position-relative">
           <div
-            class="position-absolute top-0 start-0 translate-middle"
+            className="position-absolute top-0 start-0 translate-middle"
             id="circle"
           ></div>
           <div className="container">
@@ -111,9 +111,9 @@ const Career = () => {
       </section>
 
       <section className="mt-4" id="career">
-        <div class="position-relative">
+        <div className="position-relative">
           <div
-            class="position-absolute top-0 start-0 translate-middle"
+            className="position-absolute top-0 start-0 translate-middle"
             id="circle"
           ></div>
           <div className="container">
@@ -129,7 +129,7 @@ const Career = () => {
             </div>
           </div>
           <div
-            class="position-absolute top-100 start-0 translate-middle"
+            className="position-absolute top-100 start-0 translate-middle"
             id="circle"
           ></div>
           <div className="container" id="jobDescription">
