@@ -12,7 +12,7 @@ const GettingStarted = () => {
                 <h1>Passion,</h1>
                 <h1>Communication,</h1>
                 <h1>Execution</h1>
-                <p className="col-4 mt-3">
+                <p className="col-6 mt-3">
                   We've all heard it before, Team work makes the dream work!
                   Lets work together to make our Dreams come true.
                 </p>
@@ -32,7 +32,7 @@ const GettingStarted = () => {
                 </Link>
               </div>
             </header>
-            <section className="content col-9 mt-5">
+            <section className="col mt-5">
               <p>
                 Currently <strong>v2.0.1</strong>
               </p>
@@ -42,7 +42,7 @@ const GettingStarted = () => {
               </h1>
               <h2 className="d-inline">Portfolio</h2>
               <div className="row mt-5">
-                <article className="col">
+                <article className="col-sm">
                   <h4>About Me</h4>
                   <p>
                     Looking to get to know more about me and my journey? Maybe
@@ -51,7 +51,7 @@ const GettingStarted = () => {
                     what I am working on, or even where you might see me next.
                   </p>
                 </article>
-                <article className="col">
+                <article className="col-sm">
                   <h4>Web Dev</h4>
                   <p>
                     Want to checkout not all but a few of my most recent Web
@@ -60,7 +60,7 @@ const GettingStarted = () => {
                     knows, you might get lucky.
                   </p>
                 </article>
-                <article className="col">
+                <article className="col-sm">
                   <h4>Design</h4>
                   <p>
                     Love Art and Design? Well welcome Friend. It looks like we

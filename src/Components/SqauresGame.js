@@ -23,14 +23,16 @@ const SquaresGame = () => {
         ? event.target.checked
         : event.target.value;
 
+    console.log(event.target.value, value);
+
     setPlayer((prevState) => {
       return { ...prevState, selection1: event.target.value };
     });
-    console.log(event.target.value, value);
   };
 
   const submitHandler = (event) => {
     event.preventDefault();
+    console.log(player);
     // const player = {
     //   userName: "",
     //   selection1: "",
@@ -42,7 +44,7 @@ const SquaresGame = () => {
 
   return (
     <>
-      <div className="content mt-5">
+      <div className="mt-5">
         <h1>Lets Play</h1>
         <input
           type="text"

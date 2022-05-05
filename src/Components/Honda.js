@@ -3,7 +3,7 @@ import React from "react";
 const Honda = () => {
   return (
     <>
-      <section className="content col-9 mt-5 border-bottom">
+      <section className="col mt-5 border-bottom">
         <h5>Honda</h5>
         <img className="img-fluid" src="/images/honda.jpg" alt="honda" />
         <h6 className="mt-5">Welocome to the Honda</h6>

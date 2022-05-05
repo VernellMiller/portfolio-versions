@@ -3,7 +3,7 @@ import React from "react";
 const YardProject = () => {
   return (
     <>
-      <section className="content col-9 mt-5 border-bottom">
+      <section className="col mt-5 border-bottom">
         <h5>The Yard Build</h5>
         <img
           className="img-fluid"

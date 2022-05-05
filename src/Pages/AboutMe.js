@@ -14,7 +14,7 @@ const AboutMe = () => {
             </header>
           </div>
         </div>
-        <section className="content col-9 mt-3 border-bottom">
+        <section className="col mt-3 border-bottom">
           <img
             className="img-fluid"
             src="/images/About Me.jpg"
