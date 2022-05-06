@@ -40,6 +40,7 @@ const SquaresGame = () => {
       <div className="mt-5">
         <h1>Lets Play</h1>
         <input
+          className="mt-3 border"
           type="text"
           onChange={getUserNameHandler}
           placeholder="enter name here"
