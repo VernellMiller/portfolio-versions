@@ -2,6 +2,7 @@ import React from "react";
 import SquaresGame from "../Components/SqauresGame";
 
 const Squares = () => {
+  const winners = ["Me", "You", "Him", "Her", "Them", "They"];
   return (
     <>
       <div className="container">
@@ -32,13 +33,17 @@ const Squares = () => {
               <br></br>
 
               <p>
-                Squares is made up of a 26x26 square grid. Only one game is
-                played per 24 hours. Each player may attempt to guess the
+                Squares is made up of a 12x12 square grid. Each player may only
+                play one game per 24 hours. Each player may attempt to guess the
                 jackpot location a max 4 times per day.
               </p>
             </section>
 
             <SquaresGame />
+
+            {winners.map((winner) => {
+              return <h6> {winner} </h6>;
+            })}
           </div>
         </div>
       </div>
