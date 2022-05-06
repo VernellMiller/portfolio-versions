@@ -33,13 +33,6 @@ const SquaresGame = () => {
   const submitHandler = (event) => {
     event.preventDefault();
     console.log(player);
-    // const player = {
-    //   userName: "",
-    //   selection1: "",
-    //   selection2: "",
-    //   selection3: "",
-    //   selection4: "",
-    // };
   };
 
   return (
