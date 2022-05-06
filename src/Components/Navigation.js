@@ -17,7 +17,7 @@ const OffCanvasNav = () => {
     <>
       <div className="container sticky-top">
         <Button className="btn btn-light shadow mt-2" onClick={handleShow}>
-          Launch
+          Menu
         </Button>
       </div>
 
