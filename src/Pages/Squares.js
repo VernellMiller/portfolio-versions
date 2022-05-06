@@ -23,20 +23,31 @@ const Squares = () => {
                 what it takes? Try it out, have some fun and who knows, maybe
                 you'll be todays Squares Winner.
               </p>
-
               <br></br>
-
-              <h5>How to Play</h5>
-
-              <sub>Step 1:</sub>
-
-              <br></br>
-
+              <h5>Instructions</h5>
               <p>
-                Squares is made up of a 12x12 square grid. Each player may only
-                play one game per 24 hours. Each player may attempt to guess the
-                jackpot location a max 4 times per day.
+                Squares is made up of a 12x12 square grid. You may only play one
+                game per 24 hours. Each day renders a new combination of four
+                winning squares. Choose your combination of four squares to try
+                to match Today's winning squares. Match Today's winning squares
+                to earn the <strong>Reward Of The Day.</strong>
               </p>
+              <p>Have fun and share your combination with friends.</p>
+            </section>
+            <section className="col mt-5 border-bottom">
+              <h1>How to Play</h1>
+              <sub>Step 1:</sub>
+              <p>Enter your Name.</p>
+              <sub>Step 2:</sub>
+              <p>Select four Squares.</p>
+              <img
+                className="img-fluid"
+                src="/images/userSelectionExample.png"
+                alt="About Me"
+              />
+              <br />
+              <sub>Step 3:</sub>
+              <p>LOCK IT IN. Submit your combination for the day.</p>
             </section>
 
             <SquaresGame />
