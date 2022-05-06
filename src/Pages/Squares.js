@@ -1,8 +1,9 @@
 import React from "react";
 import SquaresGame from "../Components/SqauresGame";
+import WinningCombination from "../Components/WinningCombination";
 
 const Squares = () => {
-  const winners = ["Me", "You", "Him", "Her", "Them", "They"];
+  // const winners = ["Me", "You", "Him", "Her", "Them", "They"];
   return (
     <>
       <div className="container">
@@ -52,9 +53,11 @@ const Squares = () => {
 
             <SquaresGame />
 
-            {winners.map((winner) => {
+            {/* {winners.map((winner) => {
               return <h6> {winner} </h6>;
-            })}
+            })} */}
+
+            <WinningCombination />
           </div>
         </div>
       </div>
