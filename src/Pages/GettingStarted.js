@@ -28,7 +28,7 @@ const GettingStarted = () => {
                   className="btn btn-outline-light btn-lg position-absolute top-100 start-0 translate-middle pl-4"
                   id="contactMe"
                 >
-                  Contact Me
+                  Contact
                 </Link>
               </div>
             </header>
