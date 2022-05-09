@@ -2,12 +2,10 @@ import React, { useState } from "react";
 import DateTime from "./DateTime";
 
 const SquaresGame = () => {
-  const [player, setPlayer] = useState({
-    userName: "",
-    selection1: "",
-    selection2: "",
-    selection3: "",
-    selection4: "",
+  const [player, setPlayer] = useState({ userName: "" });
+
+  const [selections, setSelections] = useState({
+    selections: [],
   });
 
   const getUserNameHandler = (event) => {
@@ -25,8 +23,8 @@ const SquaresGame = () => {
 
     console.log(event.target.value, value);
 
-    setPlayer((prevState) => {
-      return { ...prevState, selection1: event.target.value };
+    setSelections((prevState) => {
+      return { ...prevState, selections: event.target.value };
     });
   };
 
