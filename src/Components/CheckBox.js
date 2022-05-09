@@ -1,19 +1,20 @@
 import React from "react";
 
 const CheckBox = () => {
-  let i = 0;
   const checkBoxInfo = [];
 
-  //   while (checkBoxInfo < 144) {
-  //     checkBoxInfo.push({});
-  //     checkBoxInfo++;
+  //   let x = 0;
+
+  //     while (x < 144) {
+  //       checkBoxInfo.push({});
+  //       x++;
+  //     }
   //     console.log(checkBoxInfo);
-  //   }
 
   for (let i = 0; i < 144; i++) {
     checkBoxInfo.push({});
-    console.log(checkBoxInfo);
   }
+  console.log(checkBoxInfo);
 
   const renderCheckBox = (index) => {
     return (
@@ -24,7 +25,7 @@ const CheckBox = () => {
           aria-label="Basic checkbox toggle button group"
         >
           <input
-            key={index}
+            // key={index}
             type="checkbox"
             className="checkBoxes btn-check"
             id="btncheck1"
