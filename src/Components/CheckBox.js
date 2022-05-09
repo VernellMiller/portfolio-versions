@@ -1,15 +1,49 @@
 import React from "react";
 
 const CheckBox = () => {
-  return (
-    <div className="container">
-      <input type="checkbox" className="btn-check" id="btncheck1" />
-      <label
-        className="btn btn-outline-secondary border"
-        htmlFor="btncheck1"
-      ></label>
-    </div>
-  );
+  let i = 0;
+  const checkBoxInfo = [];
+
+  //   while (checkBoxInfo < 144) {
+  //     checkBoxInfo.push({});
+  //     checkBoxInfo++;
+  //     console.log(checkBoxInfo);
+  //   }
+
+  for (let i = 0; i < 144; i++) {
+    checkBoxInfo.push({});
+    console.log(checkBoxInfo);
+  }
+
+  const renderCheckBox = (index) => {
+    return (
+      <>
+        <div
+          className="btn-group"
+          role="group"
+          aria-label="Basic checkbox toggle button group"
+        >
+          <input
+            key={index}
+            type="checkbox"
+            className="checkBoxes btn-check"
+            id="btncheck1"
+            value="1"
+          />
+          <label
+            className="btn btn-outline-secondary border"
+            //   htmlFor="btncheck1"
+            style={{
+              width: "40px",
+              height: "40px",
+              backgroundColor: "#00d6cc",
+            }}
+          ></label>
+        </div>
+      </>
+    );
+  };
+  return <>{checkBoxInfo.map(renderCheckBox)}</>;
 };
 
 export default CheckBox;
