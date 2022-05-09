@@ -14,7 +14,11 @@ const WinningCombination = () => {
 
   return (
     <>
-      <button type="button" className="col btn btn-primary">
+      <button
+        type="submit"
+        className="col btn btn-primary"
+        onClick={WinningCombination}
+      >
         Reset
       </button>
     </>
