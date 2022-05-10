@@ -1,16 +1,22 @@
 import React, { useState } from "react";
 
 const WinningCombination = () => {
-  function getWinningNumbers() {
-    const winningNumbers = [];
+  const winningNumbers = [];
+
+  const getWinningNumber = () => {
     const randomNumber = Math.floor(Math.random() * 145);
-    winningNumbers.push(randomNumber);
-    for (let i = 0; i < 3; i++) {
-      winningNumbers.push(Math.floor(Math.random() * 145));
+    if (winningNumbers.includes(randomNumber)) {
+      return getWinningNumber();
     }
-    return winningNumbers;
+    return randomNumber;
+  };
+
+  for (let i = 0; i < 4; i++) {
+    let winningNumber = getWinningNumber();
+    winningNumbers.push(winningNumber);
   }
-  console.log(getWinningNumbers());
+
+  console.log(winningNumbers);
 
   return (
     <>
