@@ -20,7 +20,6 @@ import AboutMe from "./Pages/AboutMe";
 function App() {
   return (
     <>
-      {/* <Router> */}
       <div className="App">
         <div className="App-body">
           <Navigation />
@@ -42,7 +41,6 @@ function App() {
           <Footer />
         </div>
       </div>
-      {/* </Router> */}
     </>
   );
 }
