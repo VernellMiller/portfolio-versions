@@ -5,7 +5,7 @@ const CheckBox = (props) => {
   for (let i = 1; i < 145; i++) {
     checkBoxInfo.push(i);
   }
-  console.log(checkBoxInfo);
+  // console.log(checkBoxInfo);
 
   const renderCheckBox = (data, index) => {
     const counter = `btncheck${data}`;
@@ -26,11 +26,6 @@ const CheckBox = (props) => {
         <label
           className="btn btn-outline-secondary border"
           htmlFor={counter}
-          style={{
-            width: "40px",
-            height: "40px",
-            backgroundColor: "#00d6cc",
-          }}
         ></label>
       </div>
     );

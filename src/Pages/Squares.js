@@ -3,7 +3,6 @@ import SquaresGame from "../Components/SqauresGame";
 import WinningCombination from "../Components/WinningCombination";
 
 const Squares = () => {
-  // const winners = ["Me", "You", "Him", "Her", "Them", "They"];
   return (
     <>
       <div className="container">
@@ -52,10 +51,6 @@ const Squares = () => {
             </section>
 
             <SquaresGame />
-
-            {/* {winners.map((winner) => {
-              return <h6> {winner} </h6>;
-            })} */}
             <WinningCombination />
           </div>
         </div>
