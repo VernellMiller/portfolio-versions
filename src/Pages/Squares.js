@@ -40,6 +40,7 @@ const Squares = () => {
               <p>Enter your Name.</p>
               <sub>Step 2:</sub>
               <p>Select four Squares.</p>
+              example:
               <img
                 className="img-fluid"
                 src="/images/userSelectionExample.png"
