@@ -1,7 +1,6 @@
 import React from "react";
 import SquaresGame from "../Components/SqauresGame";
 import WinningCombination from "../Components/WinningCombination";
-import CheckBox from "../Components/CheckBox";
 
 const Squares = () => {
   // const winners = ["Me", "You", "Him", "Her", "Them", "They"];
@@ -53,7 +52,6 @@ const Squares = () => {
             </section>
 
             <SquaresGame />
-            <CheckBox />
 
             {/* {winners.map((winner) => {
               return <h6> {winner} </h6>;
