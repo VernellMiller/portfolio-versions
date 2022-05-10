@@ -10,7 +10,6 @@ const SquaresGame = (props) => {
   });
 
   const getUserNameHandler = (event) => {
-    console.log(event.target.value);
     setPlayer((prevState) => {
       return { ...prevState, userName: event.target.value };
     });
@@ -21,6 +20,8 @@ const SquaresGame = (props) => {
       event.target.type === "checkbox"
         ? event.target.checked
         : event.target.value;
+
+    // console.log(event.target.value, value);
 
     setSelections((prevState) => {
       return { ...prevState, selections: event.target.value };

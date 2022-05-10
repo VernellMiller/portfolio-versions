@@ -16,8 +16,6 @@ const WinningCombination = () => {
     winningNumbers.push(winningNumber);
   }
 
-  console.log(winningNumbers);
-
   return (
     <>
       <button
