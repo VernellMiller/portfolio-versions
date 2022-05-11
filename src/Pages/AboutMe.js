@@ -23,42 +23,44 @@ const AboutMe = () => {
           <p className="mt-5">
             <strong>Vernell Miller</strong> to be exact. Thank you for visiting.
           </p>
-          <h3 className="mt-5">Early Life</h3>
-          <p>
-            I was born in Detroit Michigan, However I’ve spent majority of my
-            life in Georgia. I enjoyed a very active childhood filled with
-            exuberant outdoor activities and sports. Although it was sort lived,
-            my first sport was soccer. I then went on to play basketball and
-            football for as long as the days were.
-          </p>
-          <p>
-            I've grown to learn many lessons through my experiences and these
-            activities which have become corner stones to the success in my
-            life. One of those corner stones I still closely hold onto is,
-            COMMUNICATION.
-          </p>
-          <p>
-            Video Games, Art and Movies also took precedent in my life early on.
-            It was through those mediums where my mind truly blossomed and
-            unleashed a world of curiosity. I then only wondered how "things"
-            were done. How "things" were made.
-          </p>
+          <section className="border-bottom">
+            <h3 className="mt-5">Early Life</h3>
+            <p>
+              I was born in Detroit Michigan, However I’ve spent the majority of
+              my life in Georgia. I enjoyed a very active childhood filled with
+              exuberant outdoor activities and sports. Although it was sort
+              lived, my first sport was soccer. I then went on to play
+              basketball and football for as the sun lit the sky.
+            </p>
+            <p>
+              I've grown to learn many life lessons through my experiences in
+              these activities which have become corner stones to the success in
+              my life. One of those key corner stones I still closely hold onto
+              is, COMMUNICATION.
+            </p>
+            <p>
+              Video Games, Art and Movies also took precedent in my life early
+              on. It was through those mediums where my mind truly blossomed and
+              unleashed a world of curiosity. I then only wondered how "things"
+              were done. How "things" were made.
+            </p>
 
-          <p>
-            The decisions that were made for this "thing" to exist and
-            ultimately how someone could be brilliant enough to create something
-            out of nothing. These questions lead to more questions which lead to
-            even more questions which set me on the path of discovery and
-            problem solving.
-          </p>
+            <p>
+              The decisions that were made for this "thing" to exist and
+              ultimately how someone could be brilliant enough to create
+              something out of nothing. These questions lead to more questions
+              which lead to even more questions which set me on the path of
+              discovery and problem solving.
+            </p>
 
-          <p>
-            If I wanted to learn about a subject or product I had to first learn
-            all that I could about it. That would then spark my interest in how
-            I could use what I learned to accomplish my goals and from there I
-            started building my problem solving skills to accomplish those
-            goals.
-          </p>
+            <p>
+              With my initial exposure to a subject or product, I had to first
+              learn all that I could about it. That would then spark my interest
+              in how I could use what I learned to accomplish my goals and from
+              there I started building my problem solving skills to accomplish
+              those goals. Then ONWARD into higher education.
+            </p>
+          </section>
 
           <h3 className="mt-5">Education</h3>
           <Education />
