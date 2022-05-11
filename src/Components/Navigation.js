@@ -63,7 +63,7 @@ const OffCanvasNav = () => {
                           Early Life
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#" className="dropdown-item pl-4 p-2">
                           Career
                         </a>
@@ -77,7 +77,7 @@ const OffCanvasNav = () => {
                         <a href="#" className="dropdown-item pl-4 p-2">
                           Interests
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   ) : null}
                 </li>
@@ -100,7 +100,7 @@ const OffCanvasNav = () => {
                           Squares
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to="project1" className="dropdown-item pl-4 p-2">
                           Project 1
                         </Link>
@@ -119,7 +119,7 @@ const OffCanvasNav = () => {
                         <Link to="project4" className="dropdown-item pl-4 p-2">
                           Project 4
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   ) : null}
                 </li>
