@@ -18,7 +18,7 @@ const YardProject = () => {
           was then given the opportunity to create a few 2D designs to help aid
           in visualizing the end goal. I took the original drawing and created a
           vector version of it to gain a bit more clarity of the space. This
-          also created a file that can shared more easily amongst the
+          also created a file that can be easily shared amongst the
           stakeholders.
         </p>
         <img
@@ -31,7 +31,7 @@ const YardProject = () => {
           interesting project, being that I had the opportunity to work on the
           design and the actual hands on build of the yard. The designs
           definitely gave great perspective and talking points throughout the
-          project duration while also injecting some new ideas for the future.
+          project's duration while also injecting some new ideas for the future.
         </p>
       </section>
     </>

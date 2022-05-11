@@ -16,11 +16,11 @@ const Honda = () => {
           Illustrator.
         </p>
         <p>
-          This project help bolster my pen tool skills along with my skills
+          This project helped bolster my pen tool skills along with my skills
           using the perspective grid tool. Using both really brought life to
           this 2D rendition and adding the shadows and highlights blends it all
-          come together smoothly. It was great practice for me and I enjoyed it
-          a ton.
+          together smoothly. It was great practice for me and I enjoyed it a
+          ton.
         </p>
       </section>
     </>
