@@ -5,18 +5,20 @@ import WinningCombination from "../Components/WinningCombination";
 const Squares = () => {
   return (
     <>
+      <div>
+        <img
+          className="img-fluid"
+          src="/images/squares-01-01.jpg"
+          alt="About Me"
+        />
+      </div>
       <div className="container">
         <div className="row">
           <div className="col mt-5 ml-5">
             <header>
-              <h1>Squares</h1>
+              <h1>Squares (work in progress)</h1>
             </header>
             <section className="col mt-5 border-bottom">
-              <img
-                className="img-fluid"
-                src="/images/squares-01-01.jpg"
-                alt="About Me"
-              />
               <h5 className="mt-5">Welcome to Squares</h5>
               <p>
                 Squares is a daily try your luck guessing game. Think you got
