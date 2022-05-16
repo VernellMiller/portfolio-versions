@@ -36,6 +36,13 @@ const Career = () => {
                     include brainstorming, sketching and creating the logos
                     along with the overall identity of a Start up Company.
                   </p>
+                  <h6>BuzzKill - Short Film</h6>
+                  <ul>
+                    <li>
+                      Met accelerated deadline for VFX scene composited in
+                      Blender 3D.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -71,11 +78,11 @@ const Career = () => {
                     Built from scratch a AR application for a weapons defense
                     company to use as a sales tool.
                   </p>
+                  <h6>Raytheon Augmented Reality Application Project</h6>
                   <p>
-                    Raytheon Augmented Reality Application Project. The scope of
-                    this project was to construct an innovative marketing asset
-                    through an Augmented Reality Application to present recently
-                    launched product devices to clientele.
+                    The scope of this project was to construct an innovative
+                    marketing asset through an Augmented Reality Application to
+                    present recently launched product devices to clientele.
                   </p>
                   <ul>
                     <li>
@@ -165,12 +172,12 @@ const Career = () => {
                     AT&T. Built server racks from scratch that contributed to
                     several AT&T Data Centers across the country.
                   </p>
+                  <h6>AT&T Data Center Installation Project</h6>
                   <p>
-                    AT&T Data Center Installation Project The purpose of this
-                    project is to provide an architecture solution,
-                    construction, delivery and installation of server racks &
-                    equipment for multiple AT&T Data Center locations across the
-                    US.
+                    The purpose of this project is to provide an architecture
+                    solution, construction, delivery and installation of server
+                    racks & equipment for multiple AT&T Data Center locations
+                    across the US.
                   </p>
                   <ul>
                     <li>
