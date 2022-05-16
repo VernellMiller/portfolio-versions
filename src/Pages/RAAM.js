@@ -171,9 +171,10 @@ const RAAM = () => {
                 Backend to the Frontend using Python and Django. I also was
                 responsible for writing out the all the paths for a fully
                 functioning CRUD application. Last but not least was retrieving
-                the data from the data base. We had some issues her as a team.
+                the data from the data base. We had some issues here as a team.
                 Howerver, this is is a moment I would like to highlight.
               </p>
+              <h5 className="mt-5">Highlight</h5>
               <img
                 className="img-fluid mt-5"
                 src="/images/raam1.png"
