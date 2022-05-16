@@ -110,11 +110,11 @@ const AboutMe = () => {
             am very much on my way to accomplishing those goals.{" "}
             <strong>One Step At A Time👟.</strong>
           </p>
-          <p>
-            My goal is to combine all that I am passionate about and all that I
-            am interested in with my ever expanding Knowledge, to help create
-            and develop unique products and experiences for the end user.
-          </p>
+          <h2 className="mt-5">
+            My goal is to combine my love for Art, Design and Software
+            Engineering with my passion for learning new technologies, to help
+            create and develop unique products and experiences for the end user.
+          </h2>
         </section>
       </div>
     </>
