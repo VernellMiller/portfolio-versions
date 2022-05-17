@@ -1,6 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 
 const CheckBox = (props) => {
+  const [selections, setSelections] = useState({
+    selections: [],
+  });
+
+  const getSelectionHandler = (event) => {
+    const value =
+      event.target.type === "checkbox"
+        ? event.target.checked
+        : event.target.value;
+
+    console.log(event.target.value, value);
+
+    setSelections((prevState) => {
+      return { ...prevState, selections: event.target.value };
+    });
+  };
+
   const checkBoxInfo = [];
   for (let i = 1; i < 145; i++) {
     checkBoxInfo.push(i);
@@ -21,7 +38,7 @@ const CheckBox = (props) => {
           className="checkBoxes btn-check"
           id={counter}
           value={data}
-          onChange={props.getSelectionHandler}
+          onChange={getSelectionHandler}
         />
         <label
           className="btn btn-outline-secondary border"
