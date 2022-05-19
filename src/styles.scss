@@ -38,9 +38,8 @@ $libackgroundcolor: #d3d3d3;
 }
 
 .splash-image {
-  @include shift-content-right();
-  background-color: $thiscolor;
-  height: 400px;
+  background-color: #00d6cc;
+  height: 200px;
 }
 
 .navbar {
