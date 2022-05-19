@@ -66,7 +66,7 @@ const Contact = () => {
                 />
               </form>
             </div>
-            <div className="card-footer bg-transparent border">Footer</div>
+            <div className="card-footer bg-transparent border"></div>
           </div>
         </div>
       </div>
