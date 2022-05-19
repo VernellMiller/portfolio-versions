@@ -43,6 +43,28 @@ const Career = () => {
                       Blender 3D.
                     </li>
                   </ul>
+                  <h6>LVD 13:13 - Branding</h6>
+                  <ul>
+                    <li>
+                      Met with business owners and stakeholders to construct the
+                      design of assets.
+                    </li>
+                    <li>
+                      Provided value to client through Logo & Font Design
+                      packaged deliverables.
+                    </li>
+                  </ul>
+                  <h6>TRAFFIC - Brand Identity and Marketing</h6>
+                  <ul>
+                    <li>
+                      Brainstormed, Researched and created concepts for all
+                      designs.
+                    </li>
+                    <li>Built logo from concept to finished design.</li>
+                    <li>Created UX/UI designs for mobile applications.</li>
+                    <li>Designed digital marketing assets.</li>
+                    <li>Rendered 2D logo animation.</li>
+                  </ul>
                 </div>
               </div>
             </div>
