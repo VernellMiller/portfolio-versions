@@ -176,7 +176,7 @@ const RAAM = () => {
               </p>
               <h5 className="mt-5">Highlight</h5>
               <img
-                className="img-fluid mt-5"
+                className="img-fluid"
                 src="/images/raam1.png"
                 alt="slack message"
               />
