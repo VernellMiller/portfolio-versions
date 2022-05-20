@@ -49,7 +49,6 @@ const SquaresGame = (props) => {
             </div>
           </div>
         </form>
-        {/* <p>your numbers are: {player.userSelection1}</p> */}
       </div>
     </>
   );
