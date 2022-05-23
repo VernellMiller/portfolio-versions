@@ -22,11 +22,11 @@ const CheckBox = (props) => {
     //   return { ...prevState, selections: event.target.value };
     // });
 
-    if (selection1 == "") {
+    if (selection1 === "") {
       setSelection1(event.target.value);
-    } else if (selection2 == "") {
+    } else if (selection2 === "") {
       setSelection2(event.target.value);
-    } else if (selection3 == "") {
+    } else if (selection3 === "") {
       setSelection3(event.target.value);
     } else {
       setSelection4(event.target.value);
