@@ -1,31 +1,44 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+
 const max = 4;
-// const checkIfWinner = function (arr1, arr2) {
-//   arr1.sort();
-//   arr2.sort();
 
-//   let str1 = arr1.join("");
-//   let str2 = arr2.join("");
-//   console.log(str1);
-//   console.log(str2);
+let result = "";
+const winningNumbers = [];
 
-//   result =
-//     str1 == str2
-//       ? "You are a winner Today"
-//       : "Your selections do not match today. Try again Tomorrow.";
+const getWinningNumber = () => {
+  const randomNumber = Math.floor(Math.random() * 145);
+  if (winningNumbers.includes(randomNumber)) {
+    return getWinningNumber();
+  }
+  return randomNumber;
+};
 
-//   console.log(result);
-//   return result;
-// };
+for (let i = 0; i < 4; i++) {
+  let winningNumber = getWinningNumber();
+  winningNumbers.push(winningNumber);
+}
+console.log(winningNumbers);
+
+const checkIfWinner = function (arr1, arr2) {
+  arr1.sort();
+  arr2.sort();
+
+  let str1 = arr1.join("");
+  let str2 = arr2.join("");
+  console.log(str1);
+  console.log(str2);
+
+  result =
+    str1 == str2
+      ? "You are a winner Today"
+      : "Your selections do not match today. Try again Tomorrow.";
+
+  console.log(result);
+  return result;
+};
+
 const CheckBox = (props) => {
   const [selections, setSelections] = useState([]);
-
-  // const [selection1, setSelection1] = useState("");
-  // const [selection2, setSelection2] = useState("");
-  // const [selection3, setSelection3] = useState("");
-  // const [selection4, setSelection4] = useState("");
-
-  // const selections = [];
 
   const getSelectionHandler = (event) => {
     let newSelections = [...selections];
@@ -36,7 +49,7 @@ const CheckBox = (props) => {
       );
     } else if (newSelections.length < max) {
       newSelections.push(event.target.value);
-      // checkIfWinner(newSelections, winning);
+      checkIfWinner(newSelections, winningNumbers);
     }
     setSelections(newSelections);
   };
@@ -46,14 +59,15 @@ const CheckBox = (props) => {
     checkBoxInfo.push(i);
   }
   // console.log(checkBoxInfo);
-  console.log("I was rendered!");
+  // console.log("I was rendered!");
+
   const renderCheckBox = (data, index) => {
     const counter = `btncheck${data}`;
-    console.log(
-      selections.some((value) => value == data),
-      data,
-      selections
-    );
+    // console.log(
+    //   selections.some((value) => value == data),
+    //   data,
+    //   selections
+    // );
     return (
       <div
         key={data}
@@ -70,10 +84,9 @@ const CheckBox = (props) => {
           value={data}
           onChange={getSelectionHandler}
         />
-        <label
-          className="btn btn-outline-secondary border"
-          htmlFor={counter}
-        ></label>
+        <label className="btn btn-outline-secondary border" htmlFor={counter}>
+          {data}
+        </label>
       </div>
     );
   };
