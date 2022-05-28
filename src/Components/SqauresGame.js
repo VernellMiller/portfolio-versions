@@ -4,6 +4,7 @@ import CheckBox from "../Components/CheckBox";
 
 const SquaresGame = (props) => {
   const [player, setPlayer] = useState({ userName: "" });
+  const [message, setMessage] = useState("");
 
   const getUserNameHandler = (event) => {
     setPlayer((prevState) => {
@@ -14,6 +15,7 @@ const SquaresGame = (props) => {
   const submitHandler = (event) => {
     event.preventDefault();
     console.log(player);
+    setMessage("first message");
   };
 
   return (
@@ -27,10 +29,10 @@ const SquaresGame = (props) => {
           placeholder="enter name here"
           id="name"
         />
+
         <DateTime />
 
         <h1>Hello, {player.userName}</h1>
-        {/* <p>The checkbox is {isChecked ? "checked" : "unchecked"}</p> */}
 
         <form onSubmit={submitHandler}>
           <div className="checkBoxes mt-3">
@@ -49,6 +51,7 @@ const SquaresGame = (props) => {
             </div>
           </div>
         </form>
+        <h1>{message}</h1>
       </div>
     </>
   );
