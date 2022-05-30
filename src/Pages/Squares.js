@@ -1,6 +1,6 @@
 import React from "react";
 import SquaresGame from "../Components/SqauresGame";
-import WinningCombination from "../Components/WinningCombination";
+// import WinningCombination from "../Components/WinningCombination";
 
 const Squares = () => {
   return (
@@ -54,7 +54,7 @@ const Squares = () => {
             </section>
 
             <SquaresGame />
-            <WinningCombination />
+            {/* <WinningCombination /> */}
           </div>
         </div>
       </div>
