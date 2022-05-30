@@ -17,7 +17,7 @@ for (let i = 0; i < 4; i++) {
   let winningNumber = getWinningNumber();
   winningNumbers.push(winningNumber);
 }
-console.log(winningNumbers);
+// console.log(winningNumbers);
 
 const checkIfWinner = function (arr1, arr2) {
   arr1.sort();
@@ -25,15 +25,15 @@ const checkIfWinner = function (arr1, arr2) {
 
   let str1 = arr1.join("");
   let str2 = arr2.join("");
-  console.log(str1);
-  console.log(str2);
+  // console.log(str1);
+  // console.log(str2);
 
   result =
     str1 == str2
-      ? "You are a winner Today"
-      : "Your selections do not match today. Try again Tomorrow.";
-
-  console.log(result);
+      ? (document.getElementById("messages").innerHTML =
+          "You are a winner Today. Congratulations!")
+      : (document.getElementById("messages").innerHTML =
+          "Your selections do not match. Make sure you have 4 selections or try a new combination.");
   return result;
 };
 
@@ -85,7 +85,7 @@ const CheckBox = (props) => {
           onChange={getSelectionHandler}
         />
         <label className="btn btn-outline-secondary border" htmlFor={counter}>
-          {data}
+          {/* {data} */}
         </label>
       </div>
     );

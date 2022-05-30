@@ -4,7 +4,6 @@ import CheckBox from "../Components/CheckBox";
 
 const SquaresGame = (props) => {
   const [player, setPlayer] = useState({ userName: "" });
-  const [message, setMessage] = useState("");
 
   const getUserNameHandler = (event) => {
     setPlayer((prevState) => {
@@ -14,13 +13,12 @@ const SquaresGame = (props) => {
 
   const submitHandler = (event) => {
     event.preventDefault();
-    console.log(player);
-    setMessage("first message");
+    // console.log(player);
   };
 
   return (
     <>
-      <div className="mt-5">
+      <div className="mt-5 border-bottom">
         <h1>Lets Play</h1>
         <input
           className="mt-3 border"
@@ -42,16 +40,18 @@ const SquaresGame = (props) => {
               aria-label="Basic checkbox toggle button group"
             >
               <CheckBox />
-              <input
+              {/* <input
                 type="submit"
                 className="btn mt-3"
                 id="submit"
                 value="Lock It In"
-              />
+              /> */}
             </div>
           </div>
         </form>
-        <h1>{message}</h1>
+        <h1 className="mt-5" id="messages">
+          Make Your 4 Selections
+        </h1>
       </div>
     </>
   );
